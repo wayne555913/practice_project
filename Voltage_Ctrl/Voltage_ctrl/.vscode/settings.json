@@ -1,0 +1,32 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "stdio.h": "c",
+        "cstdio": "c",
+        "usart_operation.h": "c",
+        "stdarg.h": "c",
+        "stm32f1xx_hal_uart.h": "c",
+        "optional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "ratio": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "delay_class.h": "c",
+        "stm32f1xx_ll_tim.h": "c",
+        "stm32f1xx_ll_rcc.h": "c",
+        "pwm_ctrl.h": "c",
+        "stm32f1xx.h": "c",
+        "pid_algorithm.h": "c",
+        "adc_config.h": "c",
+        "stm32f1xx_ll_bus.h": "c",
+        "stm32f1xx_hal_conf.h": "c",
+        "string.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}

@@ -1,0 +1,384 @@
+ARM GAS  /tmp/ccKYaQ5L.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"PID_Algorithm.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.rodata.OFFSET_TAB_CCMRx,"a"
+  18              		.align	2
+  21              	OFFSET_TAB_CCMRx:
+  22 0000 00000000 		.ascii	"\000\000\000\000\004\004\004"
+  22      040404
+  23              		.section	.rodata.SHIFT_TAB_OCxx,"a"
+  24              		.align	2
+  27              	SHIFT_TAB_OCxx:
+  28 0000 00000800 		.ascii	"\000\000\010\000\000\000\010"
+  28      000008
+  29              		.section	.rodata.SHIFT_TAB_ICxx,"a"
+  30              		.align	2
+  33              	SHIFT_TAB_ICxx:
+  34 0000 00000800 		.ascii	"\000\000\010\000\000\000\010"
+  34      000008
+  35              		.section	.rodata.SHIFT_TAB_CCxP,"a"
+  36              		.align	2
+  39              	SHIFT_TAB_CCxP:
+  40 0000 00020406 		.ascii	"\000\002\004\006\010\012\014"
+  40      080A0C
+  41              		.section	.rodata.SHIFT_TAB_OISx,"a"
+  42              		.align	2
+  45              	SHIFT_TAB_OISx:
+  46 0000 00010203 		.ascii	"\000\001\002\003\004\005\006"
+  46      040506
+  47              		.global	__aeabi_fsub
+  48              		.global	__aeabi_fadd
+  49              		.global	__aeabi_fmul
+  50              		.global	__aeabi_ui2f
+  51              		.section	.text.PID_Process,"ax",%progbits
+  52              		.align	1
+  53              		.global	PID_Process
+  54              		.syntax unified
+  55              		.thumb
+  56              		.thumb_func
+  58              	PID_Process:
+  59              	.LFB342:
+  60              		.file 1 "Core/Src/PID_Algorithm.c"
+   1:Core/Src/PID_Algorithm.c **** #include "PID_Algorithm.h"
+   2:Core/Src/PID_Algorithm.c **** 
+   3:Core/Src/PID_Algorithm.c **** // PID_Controller temp2;
+ARM GAS  /tmp/ccKYaQ5L.s 			page 2
+
+
+   4:Core/Src/PID_Algorithm.c **** 
+   5:Core/Src/PID_Algorithm.c **** void PID_Process(Config_Value target,PID_Controller *Temp,ADC_Operation func1, Set_Duty func2)
+   6:Core/Src/PID_Algorithm.c **** {
+  61              		.loc 1 6 1
+  62              		.cfi_startproc
+  63              		@ args = 8, pretend = 0, frame = 24
+  64              		@ frame_needed = 1, uses_anonymous_args = 0
+  65 0000 90B5     		push	{r4, r7, lr}
+  66              	.LCFI0:
+  67              		.cfi_def_cfa_offset 12
+  68              		.cfi_offset 4, -12
+  69              		.cfi_offset 7, -8
+  70              		.cfi_offset 14, -4
+  71 0002 87B0     		sub	sp, sp, #28
+  72              	.LCFI1:
+  73              		.cfi_def_cfa_offset 40
+  74 0004 00AF     		add	r7, sp, #0
+  75              	.LCFI2:
+  76              		.cfi_def_cfa_register 7
+  77 0006 3C1D     		adds	r4, r7, #4
+  78 0008 84E80700 		stm	r4, {r0, r1, r2}
+  79 000c 3B60     		str	r3, [r7]
+   7:Core/Src/PID_Algorithm.c ****     uint32_t temp2;
+   8:Core/Src/PID_Algorithm.c **** 
+   9:Core/Src/PID_Algorithm.c ****     Temp->prev_error = Temp->error;             ////////record the current error
+  80              		.loc 1 9 28
+  81 000e 3B68     		ldr	r3, [r7]
+  82 0010 5A69     		ldr	r2, [r3, #20]	@ float
+  83              		.loc 1 9 22
+  84 0012 3B68     		ldr	r3, [r7]
+  85 0014 9A61     		str	r2, [r3, #24]	@ float
+  10:Core/Src/PID_Algorithm.c **** 
+  11:Core/Src/PID_Algorithm.c ****     Temp->error = target.target - Temp->current;         ////////calculate the error between target
+  86              		.loc 1 11 25
+  87 0016 7A68     		ldr	r2, [r7, #4]	@ float
+  88              		.loc 1 11 39
+  89 0018 3B68     		ldr	r3, [r7]
+  90 001a DB69     		ldr	r3, [r3, #28]	@ float
+  91              		.loc 1 11 33
+  92 001c 1946     		mov	r1, r3
+  93 001e 1046     		mov	r0, r2
+  94 0020 FFF7FEFF 		bl	__aeabi_fsub
+  95 0024 0346     		mov	r3, r0
+  96 0026 1A46     		mov	r2, r3
+  97              		.loc 1 11 17
+  98 0028 3B68     		ldr	r3, [r7]
+  99 002a 5A61     		str	r2, [r3, #20]	@ float
+  12:Core/Src/PID_Algorithm.c **** 
+  13:Core/Src/PID_Algorithm.c ****     Temp->integral += Temp->error;                ////////accumulate the error
+ 100              		.loc 1 13 20
+ 101 002c 3B68     		ldr	r3, [r7]
+ 102 002e DA68     		ldr	r2, [r3, #12]	@ float
+ 103              		.loc 1 13 27
+ 104 0030 3B68     		ldr	r3, [r7]
+ 105 0032 5B69     		ldr	r3, [r3, #20]	@ float
+ 106              		.loc 1 13 20
+ 107 0034 1946     		mov	r1, r3
+ARM GAS  /tmp/ccKYaQ5L.s 			page 3
+
+
+ 108 0036 1046     		mov	r0, r2
+ 109 0038 FFF7FEFF 		bl	__aeabi_fadd
+ 110 003c 0346     		mov	r3, r0
+ 111 003e 1A46     		mov	r2, r3
+ 112 0040 3B68     		ldr	r3, [r7]
+ 113 0042 DA60     		str	r2, [r3, #12]	@ float
+  14:Core/Src/PID_Algorithm.c **** 
+  15:Core/Src/PID_Algorithm.c ****     Temp->derivative = Temp->error - Temp->prev_error;     ////////// calculate the derivative of t
+ 114              		.loc 1 15 28
+ 115 0044 3B68     		ldr	r3, [r7]
+ 116 0046 5A69     		ldr	r2, [r3, #20]	@ float
+ 117              		.loc 1 15 42
+ 118 0048 3B68     		ldr	r3, [r7]
+ 119 004a 9B69     		ldr	r3, [r3, #24]	@ float
+ 120              		.loc 1 15 36
+ 121 004c 1946     		mov	r1, r3
+ 122 004e 1046     		mov	r0, r2
+ 123 0050 FFF7FEFF 		bl	__aeabi_fsub
+ 124 0054 0346     		mov	r3, r0
+ 125 0056 1A46     		mov	r2, r3
+ 126              		.loc 1 15 22
+ 127 0058 3B68     		ldr	r3, [r7]
+ 128 005a 1A61     		str	r2, [r3, #16]	@ float
+  16:Core/Src/PID_Algorithm.c **** 
+  17:Core/Src/PID_Algorithm.c ****     Temp->output_duty = (Temp->Kp)*(Temp->error) + (Temp->Ki)*(Temp->integral) + (Temp->Kd)*(Temp->
+ 129              		.loc 1 17 30
+ 130 005c 3B68     		ldr	r3, [r7]
+ 131 005e 1A68     		ldr	r2, [r3]	@ float
+ 132              		.loc 1 17 41
+ 133 0060 3B68     		ldr	r3, [r7]
+ 134 0062 5B69     		ldr	r3, [r3, #20]	@ float
+ 135              		.loc 1 17 35
+ 136 0064 1946     		mov	r1, r3
+ 137 0066 1046     		mov	r0, r2
+ 138 0068 FFF7FEFF 		bl	__aeabi_fmul
+ 139 006c 0346     		mov	r3, r0
+ 140 006e 1C46     		mov	r4, r3
+ 141              		.loc 1 17 57
+ 142 0070 3B68     		ldr	r3, [r7]
+ 143 0072 5A68     		ldr	r2, [r3, #4]	@ float
+ 144              		.loc 1 17 68
+ 145 0074 3B68     		ldr	r3, [r7]
+ 146 0076 DB68     		ldr	r3, [r3, #12]	@ float
+ 147              		.loc 1 17 62
+ 148 0078 1946     		mov	r1, r3
+ 149 007a 1046     		mov	r0, r2
+ 150 007c FFF7FEFF 		bl	__aeabi_fmul
+ 151 0080 0346     		mov	r3, r0
+ 152              		.loc 1 17 50
+ 153 0082 1946     		mov	r1, r3
+ 154 0084 2046     		mov	r0, r4
+ 155 0086 FFF7FEFF 		bl	__aeabi_fadd
+ 156 008a 0346     		mov	r3, r0
+ 157 008c 1C46     		mov	r4, r3
+ 158              		.loc 1 17 87
+ 159 008e 3B68     		ldr	r3, [r7]
+ 160 0090 9A68     		ldr	r2, [r3, #8]	@ float
+ARM GAS  /tmp/ccKYaQ5L.s 			page 4
+
+
+ 161              		.loc 1 17 98
+ 162 0092 3B68     		ldr	r3, [r7]
+ 163 0094 1B69     		ldr	r3, [r3, #16]	@ float
+ 164              		.loc 1 17 92
+ 165 0096 1946     		mov	r1, r3
+ 166 0098 1046     		mov	r0, r2
+ 167 009a FFF7FEFF 		bl	__aeabi_fmul
+ 168 009e 0346     		mov	r3, r0
+ 169              		.loc 1 17 80
+ 170 00a0 1946     		mov	r1, r3
+ 171 00a2 2046     		mov	r0, r4
+ 172 00a4 FFF7FEFF 		bl	__aeabi_fadd
+ 173 00a8 0346     		mov	r3, r0
+ 174 00aa 1A46     		mov	r2, r3
+ 175              		.loc 1 17 23
+ 176 00ac 3B68     		ldr	r3, [r7]
+ 177 00ae 1A62     		str	r2, [r3, #32]	@ float
+  18:Core/Src/PID_Algorithm.c ****     ///////////calculate the output value using PID
+  19:Core/Src/PID_Algorithm.c **** 
+  20:Core/Src/PID_Algorithm.c ****     func2(Temp->output_duty);        ///////transfer the output value to TIM
+ 178              		.loc 1 20 5
+ 179 00b0 3B68     		ldr	r3, [r7]
+ 180 00b2 1A6A     		ldr	r2, [r3, #32]	@ float
+ 181 00b4 FB6A     		ldr	r3, [r7, #44]
+ 182 00b6 1046     		mov	r0, r2
+ 183 00b8 9847     		blx	r3
+ 184              	.LVL0:
+  21:Core/Src/PID_Algorithm.c **** 
+  22:Core/Src/PID_Algorithm.c ****     temp2 = func1();
+ 185              		.loc 1 22 13
+ 186 00ba BB6A     		ldr	r3, [r7, #40]
+ 187 00bc 9847     		blx	r3
+ 188              	.LVL1:
+ 189 00be 7861     		str	r0, [r7, #20]
+  23:Core/Src/PID_Algorithm.c **** 
+  24:Core/Src/PID_Algorithm.c ****     Temp->current = (float)(target.ADC_ZERO_INIT - temp2);         ///////read current value of cur
+ 190              		.loc 1 24 35
+ 191 00c0 FA68     		ldr	r2, [r7, #12]
+ 192              		.loc 1 24 50
+ 193 00c2 7B69     		ldr	r3, [r7, #20]
+ 194 00c4 D31A     		subs	r3, r2, r3
+ 195              		.loc 1 24 21
+ 196 00c6 1846     		mov	r0, r3
+ 197 00c8 FFF7FEFF 		bl	__aeabi_ui2f
+ 198 00cc 0246     		mov	r2, r0
+ 199              		.loc 1 24 19
+ 200 00ce 3B68     		ldr	r3, [r7]
+ 201 00d0 DA61     		str	r2, [r3, #28]	@ float
+  25:Core/Src/PID_Algorithm.c **** }
+ 202              		.loc 1 25 1
+ 203 00d2 00BF     		nop
+ 204 00d4 1C37     		adds	r7, r7, #28
+ 205              	.LCFI3:
+ 206              		.cfi_def_cfa_offset 12
+ 207 00d6 BD46     		mov	sp, r7
+ 208              	.LCFI4:
+ 209              		.cfi_def_cfa_register 13
+ARM GAS  /tmp/ccKYaQ5L.s 			page 5
+
+
+ 210              		@ sp needed
+ 211 00d8 90BD     		pop	{r4, r7, pc}
+ 212              		.cfi_endproc
+ 213              	.LFE342:
+ 215              		.section	.text.PID_Parameters_Init,"ax",%progbits
+ 216              		.align	1
+ 217              		.global	PID_Parameters_Init
+ 218              		.syntax unified
+ 219              		.thumb
+ 220              		.thumb_func
+ 222              	PID_Parameters_Init:
+ 223              	.LFB343:
+  26:Core/Src/PID_Algorithm.c **** 
+  27:Core/Src/PID_Algorithm.c **** void PID_Parameters_Init(PID_Controller *init_para,float Kp,float Ki,float Kd,ADC_Operation ADC_Ope
+  28:Core/Src/PID_Algorithm.c **** {
+ 224              		.loc 1 28 1
+ 225              		.cfi_startproc
+ 226              		@ args = 8, pretend = 0, frame = 16
+ 227              		@ frame_needed = 1, uses_anonymous_args = 0
+ 228              		@ link register save eliminated.
+ 229 0000 80B4     		push	{r7}
+ 230              	.LCFI5:
+ 231              		.cfi_def_cfa_offset 4
+ 232              		.cfi_offset 7, -4
+ 233 0002 85B0     		sub	sp, sp, #20
+ 234              	.LCFI6:
+ 235              		.cfi_def_cfa_offset 24
+ 236 0004 00AF     		add	r7, sp, #0
+ 237              	.LCFI7:
+ 238              		.cfi_def_cfa_register 7
+ 239 0006 F860     		str	r0, [r7, #12]
+ 240 0008 B960     		str	r1, [r7, #8]	@ float
+ 241 000a 7A60     		str	r2, [r7, #4]	@ float
+ 242 000c 3B60     		str	r3, [r7]	@ float
+  29:Core/Src/PID_Algorithm.c **** 
+  30:Core/Src/PID_Algorithm.c ****     init_para->Kp = Kp;
+ 243              		.loc 1 30 19
+ 244 000e FB68     		ldr	r3, [r7, #12]
+ 245 0010 BA68     		ldr	r2, [r7, #8]	@ float
+ 246 0012 1A60     		str	r2, [r3]	@ float
+  31:Core/Src/PID_Algorithm.c ****     init_para->Ki = Ki;
+ 247              		.loc 1 31 19
+ 248 0014 FB68     		ldr	r3, [r7, #12]
+ 249 0016 7A68     		ldr	r2, [r7, #4]	@ float
+ 250 0018 5A60     		str	r2, [r3, #4]	@ float
+  32:Core/Src/PID_Algorithm.c ****     init_para->Kd = Kd;
+ 251              		.loc 1 32 19
+ 252 001a FB68     		ldr	r3, [r7, #12]
+ 253 001c 3A68     		ldr	r2, [r7]	@ float
+ 254 001e 9A60     		str	r2, [r3, #8]	@ float
+  33:Core/Src/PID_Algorithm.c **** 
+  34:Core/Src/PID_Algorithm.c ****     init_para->integral = 0;
+ 255              		.loc 1 34 25
+ 256 0020 FB68     		ldr	r3, [r7, #12]
+ 257 0022 4FF00002 		mov	r2, #0
+ 258 0026 DA60     		str	r2, [r3, #12]	@ float
+  35:Core/Src/PID_Algorithm.c ****     init_para->derivative = 0;
+ARM GAS  /tmp/ccKYaQ5L.s 			page 6
+
+
+ 259              		.loc 1 35 27
+ 260 0028 FB68     		ldr	r3, [r7, #12]
+ 261 002a 4FF00002 		mov	r2, #0
+ 262 002e 1A61     		str	r2, [r3, #16]	@ float
+  36:Core/Src/PID_Algorithm.c ****     init_para->prev_error =0;
+ 263              		.loc 1 36 27
+ 264 0030 FB68     		ldr	r3, [r7, #12]
+ 265 0032 4FF00002 		mov	r2, #0
+ 266 0036 9A61     		str	r2, [r3, #24]	@ float
+  37:Core/Src/PID_Algorithm.c **** 
+  38:Core/Src/PID_Algorithm.c ****     init_para->current = 0;
+ 267              		.loc 1 38 24
+ 268 0038 FB68     		ldr	r3, [r7, #12]
+ 269 003a 4FF00002 		mov	r2, #0
+ 270 003e DA61     		str	r2, [r3, #28]	@ float
+  39:Core/Src/PID_Algorithm.c ****     init_para->output_duty = 0;
+ 271              		.loc 1 39 28
+ 272 0040 FB68     		ldr	r3, [r7, #12]
+ 273 0042 4FF00002 		mov	r2, #0
+ 274 0046 1A62     		str	r2, [r3, #32]	@ float
+  40:Core/Src/PID_Algorithm.c ****     init_para->ADC_operation = ADC_Opera;
+ 275              		.loc 1 40 30
+ 276 0048 FB68     		ldr	r3, [r7, #12]
+ 277 004a BA69     		ldr	r2, [r7, #24]
+ 278 004c 5A62     		str	r2, [r3, #36]
+  41:Core/Src/PID_Algorithm.c ****     init_para->Set_duty = set_duty;
+ 279              		.loc 1 41 25
+ 280 004e FB68     		ldr	r3, [r7, #12]
+ 281 0050 FA69     		ldr	r2, [r7, #28]
+ 282 0052 9A62     		str	r2, [r3, #40]
+  42:Core/Src/PID_Algorithm.c **** 
+  43:Core/Src/PID_Algorithm.c **** 
+  44:Core/Src/PID_Algorithm.c **** }
+ 283              		.loc 1 44 1
+ 284 0054 00BF     		nop
+ 285 0056 1437     		adds	r7, r7, #20
+ 286              	.LCFI8:
+ 287              		.cfi_def_cfa_offset 4
+ 288 0058 BD46     		mov	sp, r7
+ 289              	.LCFI9:
+ 290              		.cfi_def_cfa_register 13
+ 291              		@ sp needed
+ 292 005a 80BC     		pop	{r7}
+ 293              	.LCFI10:
+ 294              		.cfi_restore 7
+ 295              		.cfi_def_cfa_offset 0
+ 296 005c 7047     		bx	lr
+ 297              		.cfi_endproc
+ 298              	.LFE343:
+ 300              		.text
+ 301              	.Letext0:
+ 302              		.file 2 "/usr/local/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h"
+ 303              		.file 3 "/usr/local/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h"
+ 304              		.file 4 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h"
+ 305              		.file 5 "Core/Inc/USART_OPERATION.h"
+ 306              		.file 6 "Core/Inc/PID_Algorithm.h"
+ARM GAS  /tmp/ccKYaQ5L.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 PID_Algorithm.c
+     /tmp/ccKYaQ5L.s:18     .rodata.OFFSET_TAB_CCMRx:0000000000000000 $d
+     /tmp/ccKYaQ5L.s:21     .rodata.OFFSET_TAB_CCMRx:0000000000000000 OFFSET_TAB_CCMRx
+     /tmp/ccKYaQ5L.s:24     .rodata.SHIFT_TAB_OCxx:0000000000000000 $d
+     /tmp/ccKYaQ5L.s:27     .rodata.SHIFT_TAB_OCxx:0000000000000000 SHIFT_TAB_OCxx
+     /tmp/ccKYaQ5L.s:30     .rodata.SHIFT_TAB_ICxx:0000000000000000 $d
+     /tmp/ccKYaQ5L.s:33     .rodata.SHIFT_TAB_ICxx:0000000000000000 SHIFT_TAB_ICxx
+     /tmp/ccKYaQ5L.s:36     .rodata.SHIFT_TAB_CCxP:0000000000000000 $d
+     /tmp/ccKYaQ5L.s:39     .rodata.SHIFT_TAB_CCxP:0000000000000000 SHIFT_TAB_CCxP
+     /tmp/ccKYaQ5L.s:42     .rodata.SHIFT_TAB_OISx:0000000000000000 $d
+     /tmp/ccKYaQ5L.s:45     .rodata.SHIFT_TAB_OISx:0000000000000000 SHIFT_TAB_OISx
+     /tmp/ccKYaQ5L.s:52     .text.PID_Process:0000000000000000 $t
+     /tmp/ccKYaQ5L.s:58     .text.PID_Process:0000000000000000 PID_Process
+     /tmp/ccKYaQ5L.s:216    .text.PID_Parameters_Init:0000000000000000 $t
+     /tmp/ccKYaQ5L.s:222    .text.PID_Parameters_Init:0000000000000000 PID_Parameters_Init
+
+UNDEFINED SYMBOLS
+__aeabi_fsub
+__aeabi_fadd
+__aeabi_fmul
+__aeabi_ui2f

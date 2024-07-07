@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/gcc-arm-none-eabi-10.3-2021.10/",
+
+                "/home/wayne555/Documents/practice_project/Voltage_Ctrl/Voltage_ctrl/Drivers/STM32F1xx_HAL_Driver/Src/**",
+                "/home/wayne555/Documents/practice_project/Voltage_Ctrl/Voltage_ctrl/Drivers/CMSIS/Device/ST/STM32F1xx/Include/**"
+
+
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F1xx"
+            ],
+            "compilerPath": "/usr/local/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
