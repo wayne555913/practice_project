@@ -156,7 +156,7 @@ int main(void)
   while (1)
   {
        // LL_TIM_OC_SetCompareCH1(TIM1, 269);
-       Set_And_Convert_Duty_ALL(100);
+       Set_And_Convert_Duty_ALL(90);
        //PID_Process(TARGET,&temp2,ADC1_Operation,Set_And_Convert_Duty_ALL);
         //ms_delay(TIM7,10);
        us_delay(TIM7,(int)(TARGET.interval));
