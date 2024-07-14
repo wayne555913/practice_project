@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccGaeuuA.s 			page 1
+ARM GAS  /tmp/cc1ph3g4.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   31:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @{
   32:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
   33:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 2
+ARM GAS  /tmp/cc1ph3g4.s 			page 2
 
 
   34:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #if defined (ADC1) || defined (ADC2) || defined (ADC3)
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   88:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /* Internal register offset for ADC group injected data register */
   89:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /* (offset placed into a spare area of literal definition) */
   90:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define ADC_JDR1_REGOFFSET                 0x00000000U
-ARM GAS  /tmp/ccGaeuuA.s 			page 3
+ARM GAS  /tmp/cc1ph3g4.s 			page 3
 
 
   91:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define ADC_JDR2_REGOFFSET                 0x00000100U
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  145:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define ADC_CHANNEL_10_NUMBER              (                  ADC_CR1_AWDCH_3                   | A
  146:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define ADC_CHANNEL_11_NUMBER              (                  ADC_CR1_AWDCH_3                   | A
  147:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define ADC_CHANNEL_12_NUMBER              (                  ADC_CR1_AWDCH_3 | ADC_CR1_AWDCH_2    
-ARM GAS  /tmp/ccGaeuuA.s 			page 4
+ARM GAS  /tmp/cc1ph3g4.s 			page 4
 
 
  148:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define ADC_CHANNEL_13_NUMBER              (                  ADC_CR1_AWDCH_3 | ADC_CR1_AWDCH_2    
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  202:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
  203:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /* Private macros ------------------------------------------------------------*/
  204:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /** @defgroup ADC_LL_Private_Macros ADC Private Macros
-ARM GAS  /tmp/ccGaeuuA.s 			page 5
+ARM GAS  /tmp/cc1ph3g4.s 			page 5
 
 
  205:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @{
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  259:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Structure definition of some features of ADC instance.
  260:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   These parameters have an impact on ADC scope: ADC instance.
  261:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Affects both group regular and group injected (availability
-ARM GAS  /tmp/ccGaeuuA.s 			page 6
+ARM GAS  /tmp/cc1ph3g4.s 			page 6
 
 
  262:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         of ADC group injected depends on STM32 families).
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  316:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                                                    (only trigger polarity available on this STM32 s
  317:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                                              
  318:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                                              This feature can be modified afterwards using unitary 
-ARM GAS  /tmp/ccGaeuuA.s 			page 7
+ARM GAS  /tmp/cc1ph3g4.s 			page 7
 
 
  319:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  373:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
  374:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   uint32_t SequencerLength;             /*!< Set ADC group injected sequencer length.
  375:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                                              This parameter can be a value of @ref ADC_LL_EC_INJ_SE
-ARM GAS  /tmp/ccGaeuuA.s 			page 8
+ARM GAS  /tmp/cc1ph3g4.s 			page 8
 
 
  376:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                                              @note This parameter is discarded if scan mode is disa
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  430:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_IT_EOS                      ADC_CR1_EOCIE      /*!< ADC interruption ADC group regul
  431:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_IT_JEOS                     ADC_CR1_JEOCIE     /*!< ADC interruption ADC group injec
  432:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_IT_AWD1                     ADC_CR1_AWDIE      /*!< ADC interruption ADC analog watc
-ARM GAS  /tmp/ccGaeuuA.s 			page 9
+ARM GAS  /tmp/cc1ph3g4.s 			page 9
 
 
  433:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  487:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_SEQ_SCAN_ENABLE             (ADC_CR1_SCAN) /*!< ADC conversions are performed in seq
  488:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
  489:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @}
-ARM GAS  /tmp/ccGaeuuA.s 			page 10
+ARM GAS  /tmp/cc1ph3g4.s 			page 10
 
 
  490:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  544:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       XL-density devices.                                                  */
  545:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /* Note: To use TIM8_TRGO on ADC1 or ADC2, a remap of trigger must be done    */
  546:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       A remap of trigger must be done at top level (refer to               */
-ARM GAS  /tmp/ccGaeuuA.s 			page 11
+ARM GAS  /tmp/cc1ph3g4.s 			page 11
 
 
  547:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       AFIO peripheral).                                                    */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  601:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_REG_SEQ_SCAN_ENABLE_10RANKS (ADC_SQR1_L_3                               | ADC_SQR1_L
  602:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_REG_SEQ_SCAN_ENABLE_11RANKS (ADC_SQR1_L_3                | ADC_SQR1_L_1             
  603:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_REG_SEQ_SCAN_ENABLE_12RANKS (ADC_SQR1_L_3                | ADC_SQR1_L_1 | ADC_SQR1_L
-ARM GAS  /tmp/ccGaeuuA.s 			page 12
+ARM GAS  /tmp/cc1ph3g4.s 			page 12
 
 
  604:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_REG_SEQ_SCAN_ENABLE_13RANKS (ADC_SQR1_L_3 | ADC_SQR1_L_2                            
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  658:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /* ADC group injected external triggers for ADC instances: ADC1, ADC2 (for ADC instances ADCx avail
  659:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_INJ_TRIG_EXT_TIM2_TRGO      (ADC_CR2_JEXTSEL_1)                                     
  660:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_INJ_TRIG_EXT_TIM2_CH1       (ADC_CR2_JEXTSEL_1 | ADC_CR2_JEXTSEL_0)                 
-ARM GAS  /tmp/ccGaeuuA.s 			page 13
+ARM GAS  /tmp/cc1ph3g4.s 			page 13
 
 
  661:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_INJ_TRIG_EXT_TIM3_CH4       (ADC_CR2_JEXTSEL_2)                                     
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  715:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
  716:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_INJ_SEQ_DISCONT_DISABLE     0x00000000U            /*!< ADC group injected sequencer
  717:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_INJ_SEQ_DISCONT_1RANK       (ADC_CR1_JDISCEN)      /*!< ADC group injected sequencer
-ARM GAS  /tmp/ccGaeuuA.s 			page 14
+ARM GAS  /tmp/cc1ph3g4.s 			page 14
 
 
  718:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  772:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_AWD_CHANNEL_3_REG           ((LL_ADC_CHANNEL_3  & ADC_CHANNEL_ID_MASK)              
  773:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_AWD_CHANNEL_3_INJ           ((LL_ADC_CHANNEL_3  & ADC_CHANNEL_ID_MASK) | ADC_CR1_JAW
  774:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_AWD_CHANNEL_3_REG_INJ       ((LL_ADC_CHANNEL_3  & ADC_CHANNEL_ID_MASK) | ADC_CR1_JAW
-ARM GAS  /tmp/ccGaeuuA.s 			page 15
+ARM GAS  /tmp/cc1ph3g4.s 			page 15
 
 
  775:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_AWD_CHANNEL_4_REG           ((LL_ADC_CHANNEL_4  & ADC_CHANNEL_ID_MASK)              
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  829:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
  830:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_AWD_THRESHOLD_HIGH          (ADC_AWD_TR1_HIGH_REGOFFSET) /*!< ADC analog watchdog th
  831:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define LL_ADC_AWD_THRESHOLD_LOW           (ADC_AWD_TR1_LOW_REGOFFSET)  /*!< ADC analog watchdog th
-ARM GAS  /tmp/ccGaeuuA.s 			page 16
+ARM GAS  /tmp/cc1ph3g4.s 			page 16
 
 
  832:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  886:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       not timeout values.                                                  */
  887:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       Timeout values for ADC operations are dependent to device clock      */
  888:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       configuration (system clock versus ADC clock),                       */
-ARM GAS  /tmp/ccGaeuuA.s 			page 17
+ARM GAS  /tmp/cc1ph3g4.s 			page 17
 
 
  889:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       and therefore must be defined in user application.                   */
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  943:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
  944:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
  945:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Write a value in ADC register
-ARM GAS  /tmp/ccGaeuuA.s 			page 18
+ARM GAS  /tmp/cc1ph3g4.s 			page 18
 
 
  946:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @param  __INSTANCE__ ADC Instance
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1000:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @retval Value between Min_Data=0 and Max_Data=18
 1001:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
 1002:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define __LL_ADC_CHANNEL_TO_DECIMAL_NB(__CHANNEL__)                                        \
-ARM GAS  /tmp/ccGaeuuA.s 			page 19
+ARM GAS  /tmp/cc1ph3g4.s 			page 19
 
 
 1003:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   (((__CHANNEL__) & ADC_CHANNEL_ID_NUMBER_MASK) >> ADC_CHANNEL_ID_NUMBER_BITOFFSET_POS)
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1057:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           LL_ADC_CHANNEL_VREFINT, LL_ADC_CHANNEL_TEMPSENSOR, ...
 1058:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         - ADC external channel (channel connected to a GPIO pin):
 1059:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           LL_ADC_CHANNEL_1, LL_ADC_CHANNEL_2, ...
-ARM GAS  /tmp/ccGaeuuA.s 			page 20
+ARM GAS  /tmp/cc1ph3g4.s 			page 20
 
 
 1060:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   The channel parameter must be a value defined from literal
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1114:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_2
 1115:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_3
 1116:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_4
-ARM GAS  /tmp/ccGaeuuA.s 			page 21
+ARM GAS  /tmp/cc1ph3g4.s 			page 21
 
 
 1117:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_5
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1171:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @param  __CHANNEL__ This parameter can be one of the following values:
 1172:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_VREFINT      (1)
 1173:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_TEMPSENSOR   (1)
-ARM GAS  /tmp/ccGaeuuA.s 			page 22
+ARM GAS  /tmp/cc1ph3g4.s 			page 22
 
 
 1174:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1228:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @retval Returned value can be one of the following values:
 1229:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_DISABLE
 1230:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_ALL_CHANNELS_REG
-ARM GAS  /tmp/ccGaeuuA.s 			page 23
+ARM GAS  /tmp/cc1ph3g4.s 			page 23
 
 
 1231:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_ALL_CHANNELS_INJ
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1285:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_17_INJ
 1286:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_17_REG_INJ
 1287:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CH_VREFINT_REG          (1)
-ARM GAS  /tmp/ccGaeuuA.s 			page 24
+ARM GAS  /tmp/cc1ph3g4.s 			page 24
 
 
 1288:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CH_VREFINT_INJ          (1)
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1342:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @retval Value between Min_Data=0x000 and Max_Data=0xFFF
 1343:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
 1344:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /* Note: On this STM32 series, ADC is fixed to resolution 12 bits.            */
-ARM GAS  /tmp/ccGaeuuA.s 			page 25
+ARM GAS  /tmp/cc1ph3g4.s 			page 25
 
 
 1345:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /*       This macro has been kept anyway for compatibility with other         */
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1399:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   (ADC12_COMMON)
 1400:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #else
 1401:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** #define __LL_ADC_COMMON_INSTANCE(__ADCx__)                                     \
-ARM GAS  /tmp/ccGaeuuA.s 			page 26
+ARM GAS  /tmp/cc1ph3g4.s 			page 26
 
 
 1402:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   (ADC1_COMMON)
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1456:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (refer to reference manual).
 1457:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @param  __ADC_RESOLUTION__ This parameter can be one of the following values:
 1458:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_RESOLUTION_12B
-ARM GAS  /tmp/ccGaeuuA.s 			page 27
+ARM GAS  /tmp/cc1ph3g4.s 			page 27
 
 
 1459:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @retval ADC conversion data equivalent voltage value (unit: mVolt)
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1513:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @param  __TEMPSENSOR_TYP_AVGSLOPE__   Device datasheet data: Temperature sensor slope typical v
 1514:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *                                       On STM32F1, refer to device datasheet parameter "Avg_Slop
 1515:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @param  __TEMPSENSOR_TYP_CALX_V__     Device datasheet data: Temperature sensor voltage typical
-ARM GAS  /tmp/ccGaeuuA.s 			page 28
+ARM GAS  /tmp/cc1ph3g4.s 			page 28
 
 
 1516:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *                                       On STM32F1, refer to device datasheet parameter "V25".
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1570:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         ADC generates a DMA transfer request.
 1571:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   This macro is intended to be used with LL DMA driver, refer to
 1572:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         function "LL_DMA_ConfigAddresses()".
-ARM GAS  /tmp/ccGaeuuA.s 			page 29
+ARM GAS  /tmp/cc1ph3g4.s 			page 29
 
 
 1573:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Example:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1627:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
 1628:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 1629:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /** @defgroup ADC_LL_EF_Configuration_ADC_Common Configuration of ADC hierarchical scope: common to
-ARM GAS  /tmp/ccGaeuuA.s 			page 30
+ARM GAS  /tmp/cc1ph3g4.s 			page 30
 
 
 1630:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @{
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1684:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
 1685:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 1686:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /** @defgroup ADC_LL_EF_Configuration_ADC_Instance Configuration of ADC hierarchical scope: ADC ins
-ARM GAS  /tmp/ccGaeuuA.s 			page 31
+ARM GAS  /tmp/cc1ph3g4.s 			page 31
 
 
 1687:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @{
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1741:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
 1742:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** __STATIC_INLINE void LL_ADC_SetSequencersScanMode(ADC_TypeDef *ADCx, uint32_t ScanMode)
 1743:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** {
-ARM GAS  /tmp/ccGaeuuA.s 			page 32
+ARM GAS  /tmp/cc1ph3g4.s 			page 32
 
 
 1744:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   MODIFY_REG(ADCx->CR1, ADC_CR1_SCAN, ScanMode);
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1798:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_TRIG_EXT_EXTI_LINE11    (2)
 1799:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_TRIG_EXT_TIM8_TRGO      (2)(4)
 1800:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_TRIG_EXT_TIM8_TRGO_ADC3 (3)
-ARM GAS  /tmp/ccGaeuuA.s 			page 33
+ARM GAS  /tmp/cc1ph3g4.s 			page 33
 
 
 1801:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_TRIG_EXT_TIM3_CH1       (3)
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1855:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         
 1856:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (1) On STM32F1, parameter available on all ADC instances: ADC1, ADC2, ADC3 (for ADC ins
 1857:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (2) On STM32F1, parameter available only on ADC instances: ADC1, ADC2 (for ADC instance
-ARM GAS  /tmp/ccGaeuuA.s 			page 34
+ARM GAS  /tmp/cc1ph3g4.s 			page 34
 
 
 1858:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (3) On STM32F1, parameter available only on ADC instances: ADC3 (for ADC instances ADCx
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1912:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         If ADC instance sequencer mode is disabled, sequencers of
 1913:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         all groups (group regular, group injected) can be configured
 1914:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         but their execution is disabled (limited to rank 1).
-ARM GAS  /tmp/ccGaeuuA.s 			page 35
+ARM GAS  /tmp/cc1ph3g4.s 			page 35
 
 
 1915:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Refer to function @ref LL_ADC_SetSequencersScanMode().
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1969:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           Sequencer ranks are selected using
 1970:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           function "LL_ADC_REG_SetSequencerChannels()".
 1971:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   On this STM32 series, group regular sequencer configuration
-ARM GAS  /tmp/ccGaeuuA.s 			page 36
+ARM GAS  /tmp/cc1ph3g4.s 			page 36
 
 
 1972:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         is conditioned to ADC instance sequencer mode.
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2026:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
 2027:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** __STATIC_INLINE void LL_ADC_REG_SetSequencerDiscont(ADC_TypeDef *ADCx, uint32_t SeqDiscont)
 2028:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** {
-ARM GAS  /tmp/ccGaeuuA.s 			page 37
+ARM GAS  /tmp/cc1ph3g4.s 			page 37
 
 
 2029:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   MODIFY_REG(ADCx->CR1, ADC_CR1_DISCEN | ADC_CR1_DISCNUM, SeqDiscont);
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2083:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         SQR1     SQ13           LL_ADC_REG_SetSequencerRanks\n
 2084:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         SQR1     SQ14           LL_ADC_REG_SetSequencerRanks\n
 2085:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         SQR1     SQ15           LL_ADC_REG_SetSequencerRanks\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 38
+ARM GAS  /tmp/cc1ph3g4.s 			page 38
 
 
 2086:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         SQR1     SQ16           LL_ADC_REG_SetSequencerRanks
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   34              		.cfi_offset 7, -4
   35 0002 89B0     		sub	sp, sp, #36
   36              	.LCFI1:
-ARM GAS  /tmp/ccGaeuuA.s 			page 39
+ARM GAS  /tmp/cc1ph3g4.s 			page 39
 
 
   37              		.cfi_def_cfa_offset 40
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   32:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wunused-parameter"
   33:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   34:Drivers/CMSIS/Include/cmsis_gcc.h **** /* Fallback for __has_builtin */
-ARM GAS  /tmp/ccGaeuuA.s 			page 40
+ARM GAS  /tmp/cc1ph3g4.s 			page 40
 
 
   35:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __has_builtin
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   89:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
   90:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_READ { uint16_t v; };
   91:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
-ARM GAS  /tmp/ccGaeuuA.s 			page 41
+ARM GAS  /tmp/cc1ph3g4.s 			page 41
 
 
   92:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_READ(addr)          (((const struct T_UINT16_READ *)(const void *)(add
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  146:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  147:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Control Register
  148:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the Control Register.
-ARM GAS  /tmp/ccGaeuuA.s 			page 42
+ARM GAS  /tmp/cc1ph3g4.s 			page 42
 
 
  149:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Control Register value
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  203:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               IPSR Register value
  204:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  205:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_IPSR(void)
-ARM GAS  /tmp/ccGaeuuA.s 			page 43
+ARM GAS  /tmp/cc1ph3g4.s 			page 43
 
 
  206:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  260:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSP Register value
  261:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  262:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_PSP_NS(void)
-ARM GAS  /tmp/ccGaeuuA.s 			page 44
+ARM GAS  /tmp/cc1ph3g4.s 			page 44
 
 
  263:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  317:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  318:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  319:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 45
+ARM GAS  /tmp/cc1ph3g4.s 			page 45
 
 
  320:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, msp_ns" : "=r" (result) );
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  374:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  375:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  376:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 46
+ARM GAS  /tmp/cc1ph3g4.s 			page 46
 
 
  377:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  431:Drivers/CMSIS/Include/cmsis_gcc.h **** #if ((defined (__ARM_ARCH_7M__      ) && (__ARM_ARCH_7M__      == 1)) || \
  432:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_7EM__     ) && (__ARM_ARCH_7EM__     == 1)) || \
  433:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1))    )
-ARM GAS  /tmp/ccGaeuuA.s 			page 47
+ARM GAS  /tmp/cc1ph3g4.s 			page 47
 
 
  434:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  488:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Base Priority register.
  489:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    basePri  Base Priority value to set
  490:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  /tmp/ccGaeuuA.s 			page 48
+ARM GAS  /tmp/cc1ph3g4.s 			page 48
 
 
  491:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_BASEPRI(uint32_t basePri)
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  545:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  546:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, faultmask_ns" : "=r" (result) );
  547:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
-ARM GAS  /tmp/ccGaeuuA.s 			page 49
+ARM GAS  /tmp/cc1ph3g4.s 			page 49
 
 
  548:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  602:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  603:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  604:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 50
+ARM GAS  /tmp/cc1ph3g4.s 			page 50
 
 
  605:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3))
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  659:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  660:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)))
  661:Drivers/CMSIS/Include/cmsis_gcc.h ****   // without main extensions, the non-secure PSPLIM is RAZ/WI
-ARM GAS  /tmp/ccGaeuuA.s 			page 51
+ARM GAS  /tmp/cc1ph3g4.s 			page 51
 
 
  662:Drivers/CMSIS/Include/cmsis_gcc.h ****   (void)ProcStackPtrLimit;
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  716:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  717:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Main Stack Pointer Limit
  718:Drivers/CMSIS/Include/cmsis_gcc.h ****   Devices without ARMv8-M Main Extensions (i.e. Cortex-M23) lack the non-secure
-ARM GAS  /tmp/ccGaeuuA.s 			page 52
+ARM GAS  /tmp/cc1ph3g4.s 			page 52
 
 
  719:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence the write is silently ignored in non-secure
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  773:Drivers/CMSIS/Include/cmsis_gcc.h ****   /* see https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00443.html */
  774:Drivers/CMSIS/Include/cmsis_gcc.h ****   return __builtin_arm_get_fpscr();
  775:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
-ARM GAS  /tmp/ccGaeuuA.s 			page 53
+ARM GAS  /tmp/cc1ph3g4.s 			page 53
 
 
  776:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  830:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  831:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  832:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 54
+ARM GAS  /tmp/cc1ph3g4.s 			page 54
 
 
  833:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   No Operation
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  887:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  888:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __DMB(void)
  889:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccGaeuuA.s 			page 55
+ARM GAS  /tmp/cc1ph3g4.s 			page 55
 
 
  890:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("dmb 0xF":::"memory");
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  944:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  945:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  946:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 56
+ARM GAS  /tmp/cc1ph3g4.s 			page 56
 
 
  947:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  992:Drivers/CMSIS/Include/cmsis_gcc.h ****   result = value;                      /* r will be reversed bits of v; first get LSB of v */
  993:Drivers/CMSIS/Include/cmsis_gcc.h ****   for (value >>= 1U; value != 0U; value >>= 1U)
  994:Drivers/CMSIS/Include/cmsis_gcc.h ****   {
-ARM GAS  /tmp/ccGaeuuA.s 			page 57
+ARM GAS  /tmp/cc1ph3g4.s 			page 57
 
 
  995:Drivers/CMSIS/Include/cmsis_gcc.h ****     result <<= 1U;
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  106 0068 7047     		bx	lr
  107              		.cfi_endproc
  108              	.LFE79:
-ARM GAS  /tmp/ccGaeuuA.s 			page 58
+ARM GAS  /tmp/cc1ph3g4.s 			page 58
 
 
  110              		.section	.text.LL_ADC_SetChannelSamplingTime,"ax",%progbits
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2189:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_RANK_9
 2190:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_RANK_10
 2191:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_RANK_11
-ARM GAS  /tmp/ccGaeuuA.s 			page 59
+ARM GAS  /tmp/cc1ph3g4.s 			page 59
 
 
 2192:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_RANK_12
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2246:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_REG_CONV_CONTINUOUS
 2247:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @retval None
 2248:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 60
+ARM GAS  /tmp/cc1ph3g4.s 			page 60
 
 
 2249:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** __STATIC_INLINE void LL_ADC_REG_SetContinuousMode(ADC_TypeDef *ADCx, uint32_t Continuous)
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2303:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
 2304:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Get ADC group regular conversion data transfer: no transfer or
 2305:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         transfer by DMA, and DMA requests mode.
-ARM GAS  /tmp/ccGaeuuA.s 			page 61
+ARM GAS  /tmp/cc1ph3g4.s 			page 61
 
 
 2306:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   If transfer by DMA selected, specifies the DMA requests
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2360:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_INJ_TRIG_EXT_EXTI_LINE15   (2)
 2361:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_INJ_TRIG_EXT_TIM8_CH4      (2)(4)
 2362:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_INJ_TRIG_EXT_TIM8_CH4_ADC3 (3)
-ARM GAS  /tmp/ccGaeuuA.s 			page 62
+ARM GAS  /tmp/cc1ph3g4.s 			page 62
 
 
 2363:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_INJ_TRIG_EXT_TIM4_CH3      (3)
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2417:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (2) On STM32F1, parameter available only on ADC instances: ADC1, ADC2 (for ADC instance
 2418:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (3) On STM32F1, parameter available only on ADC instances: ADC3 (for ADC instances ADCx
 2419:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         (4) On STM32F1, parameter available only on high-density and XL-density devices. A rema
-ARM GAS  /tmp/ccGaeuuA.s 			page 63
+ARM GAS  /tmp/cc1ph3g4.s 			page 63
 
 
 2420:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2474:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         - Sequence direction: Unless specified in parameters, sequencer
 2475:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           scan direction is forward (from rank 1 to rank n).
 2476:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   On this STM32 series, group injected sequencer configuration
-ARM GAS  /tmp/ccGaeuuA.s 			page 64
+ARM GAS  /tmp/cc1ph3g4.s 			page 64
 
 
 2477:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         is conditioned to ADC instance sequencer mode.
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2531:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Set ADC group injected sequence: channel on the selected
 2532:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         sequence rank.
 2533:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   Depending on devices and packages, some channels may not be available.
-ARM GAS  /tmp/ccGaeuuA.s 			page 65
+ARM GAS  /tmp/cc1ph3g4.s 			page 65
 
 
 2534:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Refer to device datasheet for channels availability.
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2588:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Get ADC group injected sequence: channel on the selected
 2589:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         sequence rank.
 2590:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   Depending on devices and packages, some channels may not be available.
-ARM GAS  /tmp/ccGaeuuA.s 			page 66
+ARM GAS  /tmp/cc1ph3g4.s 			page 66
 
 
 2591:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Refer to device datasheet for channels availability.
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2645:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                              ADC_CHANNEL_ID_NUMBER_MASK << (5U * (uint8_t)(((Rank) + 3U) - (tmpreg1
 2646:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                     >> (5U * (uint8_t)(((Rank) + 3U) - (tmpreg1)))
 2647:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                    );
-ARM GAS  /tmp/ccGaeuuA.s 			page 67
+ARM GAS  /tmp/cc1ph3g4.s 			page 67
 
 
 2648:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** }
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2702:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Caution: Offset format is dependent to ADC resolution:
 2703:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         offset has to be left-aligned on bit 11, the LSB (right bits)
 2704:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         are set to 0.
-ARM GAS  /tmp/ccGaeuuA.s 			page 68
+ARM GAS  /tmp/cc1ph3g4.s 			page 68
 
 
 2705:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   Offset cannot be enabled or disabled.
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2759:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 2760:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /** @defgroup ADC_LL_EF_Configuration_Channels Configuration of ADC hierarchical scope: channels
 2761:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @{
-ARM GAS  /tmp/ccGaeuuA.s 			page 69
+ARM GAS  /tmp/cc1ph3g4.s 			page 69
 
 
 2762:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2816:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_13
 2817:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_14
 2818:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_15
-ARM GAS  /tmp/ccGaeuuA.s 			page 70
+ARM GAS  /tmp/cc1ph3g4.s 			page 70
 
 
 2819:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_CHANNEL_16
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  147 001e BA69     		ldr	r2, [r7, #24]
  148              		.syntax unified
  149              	@ 988 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  /tmp/ccGaeuuA.s 			page 71
+ARM GAS  /tmp/cc1ph3g4.s 			page 71
 
 
  150 0020 92FAA2F2 		rbit r2, r2
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  201              	.LBB18:
  202              	.LBB19:
  988:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
-ARM GAS  /tmp/ccGaeuuA.s 			page 72
+ARM GAS  /tmp/cc1ph3g4.s 			page 72
 
 
  203              		.loc 2 988 4
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2854:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   Conversion time is the addition of sampling time and processing time.
 2855:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Refer to reference manual for ADC processing time of
 2856:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         this STM32 series.
-ARM GAS  /tmp/ccGaeuuA.s 			page 73
+ARM GAS  /tmp/cc1ph3g4.s 			page 73
 
 
 2857:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @rmtoll SMPR1    SMP17          LL_ADC_GetChannelSamplingTime\n
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2911:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   __IO uint32_t *preg = __ADC_PTR_REG_OFFSET(ADCx->SMPR1, __ADC_MASK_SHIFT(Channel, ADC_CHANNEL_SMP
 2912:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   
 2913:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   return (uint32_t)(READ_BIT(*preg,
-ARM GAS  /tmp/ccGaeuuA.s 			page 74
+ARM GAS  /tmp/cc1ph3g4.s 			page 74
 
 
 2914:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****                              ADC_SMPR2_SMP0 << __ADC_MASK_SHIFT(Channel, ADC_CHANNEL_SMPx_BITOFFSET
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2968:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_5_INJ 
 2969:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_5_REG_INJ
 2970:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_6_REG 
-ARM GAS  /tmp/ccGaeuuA.s 			page 75
+ARM GAS  /tmp/cc1ph3g4.s 			page 75
 
 
 2971:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_6_INJ 
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3025:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   Usage of the returned channel number:
 3026:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         - To reinject this channel into another function LL_ADC_xxx:
 3027:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           the returned channel number is only partly formatted on definition
-ARM GAS  /tmp/ccGaeuuA.s 			page 76
+ARM GAS  /tmp/cc1ph3g4.s 			page 76
 
 
 3028:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *           of literals LL_ADC_CHANNEL_x. Therefore, it has to be compared
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3082:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_9_INJ 
 3083:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_9_REG_INJ
 3084:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_10_REG
-ARM GAS  /tmp/ccGaeuuA.s 			page 77
+ARM GAS  /tmp/cc1ph3g4.s 			page 77
 
 
 3085:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         @arg @ref LL_ADC_AWD_CHANNEL_10_INJ
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3139:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****              AWDThresholdValue);
 3140:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** }
 3141:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 78
+ARM GAS  /tmp/cc1ph3g4.s 			page 78
 
 
 3142:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3196:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   MODIFY_REG(ADCxy_COMMON->CR1, ADC_CR1_DUALMOD, Multimode);
 3197:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** }
 3198:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 79
+ARM GAS  /tmp/cc1ph3g4.s 			page 79
 
 
 3199:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  257              		.cfi_def_cfa_offset 4
  258              		.cfi_offset 7, -4
  259 0002 83B0     		sub	sp, sp, #12
-ARM GAS  /tmp/ccGaeuuA.s 			page 80
+ARM GAS  /tmp/cc1ph3g4.s 			page 80
 
 
  260              	.LCFI13:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  305              		.cfi_offset 7, -4
  306 0002 83B0     		sub	sp, sp, #12
  307              	.LCFI19:
-ARM GAS  /tmp/ccGaeuuA.s 			page 81
+ARM GAS  /tmp/cc1ph3g4.s 			page 81
 
 
  308              		.cfi_def_cfa_offset 16
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3277:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         between ADC disable state and calibration start.
 3278:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         Refer to literal @ref LL_ADC_DELAY_DISABLE_CALIB_ADC_CYCLES.
 3279:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   On this STM32 series, hardware prerequisite before starting a calibration:
-ARM GAS  /tmp/ccGaeuuA.s 			page 82
+ARM GAS  /tmp/cc1ph3g4.s 			page 82
 
 
 3280:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****             the ADC must have been in power-on state for at least
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  390              	.LFB110:
 3290:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 3291:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 83
+ARM GAS  /tmp/cc1ph3g4.s 			page 83
 
 
 3292:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Get ADC calibration state.
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  437              		.thumb
  438              		.thumb_func
  440              	LL_ADC_REG_StartConversionSWStart:
-ARM GAS  /tmp/ccGaeuuA.s 			page 84
+ARM GAS  /tmp/cc1ph3g4.s 			page 84
 
 
  441              	.LFB111:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  466 0016 0C37     		adds	r7, r7, #12
  467              	.LCFI39:
  468              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccGaeuuA.s 			page 85
+ARM GAS  /tmp/cc1ph3g4.s 			page 85
 
 
  469 0018 BD46     		mov	sp, r7
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3366:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** }
 3367:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 3368:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 86
+ARM GAS  /tmp/cc1ph3g4.s 			page 86
 
 
 3369:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Get ADC group regular conversion data, range fit for
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  516              	.LCFI46:
  517              		.cfi_def_cfa_register 13
  518              		@ sp needed
-ARM GAS  /tmp/ccGaeuuA.s 			page 87
+ARM GAS  /tmp/cc1ph3g4.s 			page 87
 
 
  519 0014 80BC     		pop	{r7}
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3436:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
 3437:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Start ADC group injected conversion.
 3438:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @note   On this STM32 series, this function is relevant only for
-ARM GAS  /tmp/ccGaeuuA.s 			page 88
+ARM GAS  /tmp/cc1ph3g4.s 			page 88
 
 
 3439:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         internal trigger (SW start), not for external trigger:
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3493:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 3494:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /**
 3495:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @brief  Get ADC group regular conversion data, range fit for
-ARM GAS  /tmp/ccGaeuuA.s 			page 89
+ARM GAS  /tmp/cc1ph3g4.s 			page 89
 
 
 3496:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   *         all ADC configurations: all ADC resolutions and
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 3550:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** 
 3551:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h **** /** @defgroup ADC_LL_EF_FLAG_Management ADC flag management
 3552:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   * @{
-ARM GAS  /tmp/ccGaeuuA.s 			page 90
+ARM GAS  /tmp/cc1ph3g4.s 			page 90
 
 
 3553:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h ****   */
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  573              		.cfi_def_cfa_offset 0
  574 0022 7047     		bx	lr
  575              		.cfi_endproc
-ARM GAS  /tmp/ccGaeuuA.s 			page 91
+ARM GAS  /tmp/cc1ph3g4.s 			page 91
 
 
  576              	.LFE122:
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  596              	.LCFI55:
  597              		.cfi_def_cfa_offset 16
  598 0004 00AF     		add	r7, sp, #0
-ARM GAS  /tmp/ccGaeuuA.s 			page 92
+ARM GAS  /tmp/cc1ph3g4.s 			page 92
 
 
  599              	.LCFI56:
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   13:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * the root directory of this software component.
   14:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * If no LICENSE file comes with this software, it is provided AS-IS.
   15:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   *
-ARM GAS  /tmp/ccGaeuuA.s 			page 93
+ARM GAS  /tmp/cc1ph3g4.s 			page 93
 
 
   16:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   ******************************************************************************
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   70:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /* Exported types ------------------------------------------------------------*/
   71:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #if defined(USE_FULL_LL_DRIVER)
   72:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /** @defgroup DMA_LL_ES_INIT DMA Exported Init structure
-ARM GAS  /tmp/ccGaeuuA.s 			page 94
+ARM GAS  /tmp/cc1ph3g4.s 			page 94
 
 
   73:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @{
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  127:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****                                         This parameter must be a value between Min_Data = 0 and Max
  128:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** 
  129:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****                                         This feature can be modified afterwards using unitary funct
-ARM GAS  /tmp/ccGaeuuA.s 			page 95
+ARM GAS  /tmp/cc1ph3g4.s 			page 95
 
 
  130:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** 
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  184:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @{
  185:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   */
  186:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #define LL_DMA_ISR_GIF1                   DMA_ISR_GIF1          /*!< Channel 1 global flag         
-ARM GAS  /tmp/ccGaeuuA.s 			page 96
+ARM GAS  /tmp/cc1ph3g4.s 			page 96
 
 
  187:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #define LL_DMA_ISR_TCIF1                  DMA_ISR_TCIF1         /*!< Channel 1 transfer complete fl
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  241:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #endif /*USE_FULL_LL_DRIVER*/
  242:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /**
  243:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @}
-ARM GAS  /tmp/ccGaeuuA.s 			page 97
+ARM GAS  /tmp/cc1ph3g4.s 			page 97
 
 
  244:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   */
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  298:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #define LL_DMA_MDATAALIGN_WORD            DMA_CCR_MSIZE_1         /*!< Memory data alignment : Word
  299:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /**
  300:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @}
-ARM GAS  /tmp/ccGaeuuA.s 			page 98
+ARM GAS  /tmp/cc1ph3g4.s 			page 98
 
 
  301:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   */
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  355:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #if defined(DMA2)
  356:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #define __LL_DMA_GET_INSTANCE(__CHANNEL_INSTANCE__)   \
  357:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** (((uint32_t)(__CHANNEL_INSTANCE__) > ((uint32_t)DMA1_Channel7)) ?  DMA2 : DMA1)
-ARM GAS  /tmp/ccGaeuuA.s 			page 99
+ARM GAS  /tmp/cc1ph3g4.s 			page 99
 
 
  358:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #else
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  412:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #else
  413:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** #define __LL_DMA_GET_CHANNEL_INSTANCE(__DMA_INSTANCE__, __CHANNEL__)   \
  414:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** ((((uint32_t)(__DMA_INSTANCE__) == ((uint32_t)DMA1)) && ((uint32_t)(__CHANNEL__) == ((uint32_t)LL_D
-ARM GAS  /tmp/ccGaeuuA.s 			page 100
+ARM GAS  /tmp/cc1ph3g4.s 			page 100
 
 
  415:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****  (((uint32_t)(__DMA_INSTANCE__) == ((uint32_t)DMA1)) && ((uint32_t)(__CHANNEL__) == ((uint32_t)LL_D
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  469:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   *         @arg @ref LL_DMA_CHANNEL_7
  470:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @retval None
  471:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 101
+ARM GAS  /tmp/cc1ph3g4.s 			page 101
 
 
  472:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** __STATIC_INLINE void LL_DMA_DisableChannel(DMA_TypeDef *DMAx, uint32_t Channel)
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  526:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** __STATIC_INLINE void LL_DMA_ConfigTransfer(DMA_TypeDef *DMAx, uint32_t Channel, uint32_t Configurat
  527:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** {
  528:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   MODIFY_REG(((DMA_Channel_TypeDef *)((uint32_t)((uint32_t)DMAx + CHANNEL_OFFSET_TAB[Channel - 1U])
-ARM GAS  /tmp/ccGaeuuA.s 			page 102
+ARM GAS  /tmp/cc1ph3g4.s 			page 102
 
 
  529:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****              DMA_CCR_DIR | DMA_CCR_MEM2MEM | DMA_CCR_CIRC | DMA_CCR_PINC | DMA_CCR_MINC | DMA_CCR_P
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  666 0020 23F01003 		bic	r3, r3, #16
  667 0024 BA68     		ldr	r2, [r7, #8]
  668 0026 013A     		subs	r2, r2, #1
-ARM GAS  /tmp/ccGaeuuA.s 			page 103
+ARM GAS  /tmp/cc1ph3g4.s 			page 103
 
 
  669 0028 0649     		ldr	r1, .L19
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  573:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   *         @arg @ref LL_DMA_DIRECTION_MEMORY_TO_PERIPH
  574:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   *         @arg @ref LL_DMA_DIRECTION_MEMORY_TO_MEMORY
  575:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 104
+ARM GAS  /tmp/cc1ph3g4.s 			page 104
 
 
  576:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** __STATIC_INLINE uint32_t LL_DMA_GetDataTransferDirection(DMA_TypeDef *DMAx, uint32_t Channel)
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  733 001a 1B68     		ldr	r3, [r3]
  734 001c 23F02002 		bic	r2, r3, #32
  735 0020 BB68     		ldr	r3, [r7, #8]
-ARM GAS  /tmp/ccGaeuuA.s 			page 105
+ARM GAS  /tmp/cc1ph3g4.s 			page 105
 
 
  736 0022 013B     		subs	r3, r3, #1
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  621:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   *         @arg @ref LL_DMA_MODE_CIRCULAR
  622:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   */
  623:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** __STATIC_INLINE uint32_t LL_DMA_GetMode(DMA_TypeDef *DMAx, uint32_t Channel)
-ARM GAS  /tmp/ccGaeuuA.s 			page 106
+ARM GAS  /tmp/cc1ph3g4.s 			page 106
 
 
  624:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** {
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  804 0022 013B     		subs	r3, r3, #1
  805 0024 0649     		ldr	r1, .L25
  806 0026 CB5C     		ldrb	r3, [r1, r3]	@ zero_extendqisi2
-ARM GAS  /tmp/ccGaeuuA.s 			page 107
+ARM GAS  /tmp/cc1ph3g4.s 			page 107
 
 
  807 0028 1946     		mov	r1, r3
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  669:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** {
  670:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   return (READ_BIT(((DMA_Channel_TypeDef *)((uint32_t)((uint32_t)DMAx + CHANNEL_OFFSET_TAB[Channel 
  671:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****                    DMA_CCR_PINC));
-ARM GAS  /tmp/ccGaeuuA.s 			page 108
+ARM GAS  /tmp/cc1ph3g4.s 			page 108
 
 
  672:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** }
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  875 0028 1946     		mov	r1, r3
  876 002a FB68     		ldr	r3, [r7, #12]
  877 002c 0B44     		add	r3, r3, r1
-ARM GAS  /tmp/ccGaeuuA.s 			page 109
+ARM GAS  /tmp/cc1ph3g4.s 			page 109
 
 
  878 002e 1946     		mov	r1, r3
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  717:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** }
  718:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** 
  719:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 110
+ARM GAS  /tmp/cc1ph3g4.s 			page 110
 
 
  720:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @brief  Set Peripheral size.
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  945 002c 0B44     		add	r3, r3, r1
  946 002e 1946     		mov	r1, r3
  947 0030 7B68     		ldr	r3, [r7, #4]
-ARM GAS  /tmp/ccGaeuuA.s 			page 111
+ARM GAS  /tmp/cc1ph3g4.s 			page 111
 
 
  948 0032 1343     		orrs	r3, r3, r2
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  765:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** 
  766:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /**
  767:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @brief  Set Memory size.
-ARM GAS  /tmp/ccGaeuuA.s 			page 112
+ARM GAS  /tmp/cc1ph3g4.s 			page 112
 
 
  768:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @rmtoll CCR          MSIZE         LL_DMA_SetMemorySize
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1014 002e 1946     		mov	r1, r3
  1015 0030 7B68     		ldr	r3, [r7, #4]
  1016 0032 1343     		orrs	r3, r3, r2
-ARM GAS  /tmp/ccGaeuuA.s 			page 113
+ARM GAS  /tmp/cc1ph3g4.s 			page 113
 
 
  1017 0034 0B60     		str	r3, [r1]
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  813:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h **** /**
  814:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @brief  Set Channel priority level.
  815:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @rmtoll CCR          PL            LL_DMA_SetChannelPriorityLevel
-ARM GAS  /tmp/ccGaeuuA.s 			page 114
+ARM GAS  /tmp/cc1ph3g4.s 			page 114
 
 
  816:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h ****   * @param  DMAx DMAx Instance
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1082 002e 1946     		mov	r1, r3
  1083 0030 7B68     		ldr	r3, [r7, #4]
  1084 0032 1343     		orrs	r3, r3, r2
-ARM GAS  /tmp/ccGaeuuA.s 			page 115
+ARM GAS  /tmp/cc1ph3g4.s 			page 115
 
 
  1085 0034 0B60     		str	r3, [r1]
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1144              	.LFB237:
  1145              		.file 4 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h"
    1:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 116
+ARM GAS  /tmp/cc1ph3g4.s 			page 116
 
 
    2:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   ******************************************************************************
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   56:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** static const uint8_t SHIFT_TAB_OCxx[] =
   57:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
   58:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   0U,            /* 0: OC1M, OC1FE, OC1PE */
-ARM GAS  /tmp/ccGaeuuA.s 			page 117
+ARM GAS  /tmp/cc1ph3g4.s 			page 117
 
 
   59:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   0U,            /* 1: - NA */
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  113:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define DT_DELAY_3 ((uint8_t)0x1F)
  114:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define DT_DELAY_4 ((uint8_t)0x1F)
  115:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 118
+ARM GAS  /tmp/cc1ph3g4.s 			page 118
 
 
  116:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /* Mask used to set the DTG[7:5] bits of the DTG bits of the TIMx_BDTR register */
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  170:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @{
  171:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
  172:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 119
+ARM GAS  /tmp/cc1ph3g4.s 			page 119
 
 
  173:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  227:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  228:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                This feature can be modified afterwards using unitary function
  229:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                @ref LL_TIM_OC_SetMode().*/
-ARM GAS  /tmp/ccGaeuuA.s 			page 120
+ARM GAS  /tmp/cc1ph3g4.s 			page 120
 
 
  230:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  284:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  285:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                This feature can be modified afterwards using unitary function
  286:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                @ref LL_TIM_IC_SetPolarity().*/
-ARM GAS  /tmp/ccGaeuuA.s 			page 121
+ARM GAS  /tmp/cc1ph3g4.s 			page 121
 
 
  287:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  341:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                  @ref LL_TIM_IC_SetFilter().*/
  342:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  343:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   uint32_t IC2Polarity;      /*!< Specifies the active edge of TI2 input.
-ARM GAS  /tmp/ccGaeuuA.s 			page 122
+ARM GAS  /tmp/cc1ph3g4.s 			page 122
 
 
  344:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                  This parameter can be a value of @ref TIM_LL_EC_IC_POLARITY.
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  398:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                     a change occurs on the Hall inputs.
  399:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                     This parameter can be a number between Min_Data = 0x0000 and Ma
  400:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 123
+ARM GAS  /tmp/cc1ph3g4.s 			page 123
 
 
  401:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                     This feature can be modified afterwards using unitary function
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  455:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  456:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                       This feature can be modified afterwards using unitary functio
  457:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                       @ref LL_TIM_ConfigBRK()
-ARM GAS  /tmp/ccGaeuuA.s 			page 124
+ARM GAS  /tmp/cc1ph3g4.s 			page 124
 
 
  458:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  512:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /** @defgroup TIM_LL_EC_AUTOMATICOUTPUT_ENABLE Automatic output enable
  513:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @{
  514:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 125
+ARM GAS  /tmp/cc1ph3g4.s 			page 125
 
 
  515:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define LL_TIM_AUTOMATICOUTPUT_DISABLE         0x00000000U             /*!< MOE can be set only by 
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  569:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @{
  570:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
  571:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define LL_TIM_CLOCKDIVISION_DIV1              0x00000000U          /*!< tDTS=tCK_INT */
-ARM GAS  /tmp/ccGaeuuA.s 			page 126
+ARM GAS  /tmp/cc1ph3g4.s 			page 126
 
 
  572:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define LL_TIM_CLOCKDIVISION_DIV2              TIM_CR1_CKD_0        /*!< tDTS=2*tCK_INT */
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  626:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
  627:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @}
  628:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 127
+ARM GAS  /tmp/cc1ph3g4.s 			page 127
 
 
  629:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  683:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
  684:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  685:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /** @defgroup TIM_LL_EC_ICPSC Input Configuration Prescaler
-ARM GAS  /tmp/ccGaeuuA.s 			page 128
+ARM GAS  /tmp/cc1ph3g4.s 			page 128
 
 
  686:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @{
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  740:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
  741:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define LL_TIM_ENCODERMODE_X2_TI1                     TIM_SMCR_SMS_0                               
  742:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define LL_TIM_ENCODERMODE_X2_TI2                     TIM_SMCR_SMS_1                               
-ARM GAS  /tmp/ccGaeuuA.s 			page 129
+ARM GAS  /tmp/cc1ph3g4.s 			page 129
 
 
  743:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** #define LL_TIM_ENCODERMODE_X4_TI12                   (TIM_SMCR_SMS_1 | TIM_SMCR_SMS_0)             
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  797:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
  798:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  799:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /** @defgroup TIM_LL_EC_ETR_PRESCALER External Trigger Prescaler
-ARM GAS  /tmp/ccGaeuuA.s 			page 130
+ARM GAS  /tmp/cc1ph3g4.s 			page 130
 
 
  800:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @{
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  854:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
  855:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /** @defgroup TIM_LL_EC_OSSR OSSR
  856:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @{
-ARM GAS  /tmp/ccGaeuuA.s 			page 131
+ARM GAS  /tmp/cc1ph3g4.s 			page 131
 
 
  857:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  911:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
  912:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @}
  913:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 132
+ARM GAS  /tmp/cc1ph3g4.s 			page 132
 
 
  914:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  968:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                                  (__CKD__))) >> 3U) - (uint8_t) 32) & DT_DELAY_3)) 
  969:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****     (((uint64_t)((__DT__)*1000U)) < ((32U + (DT_DELAY_4+1U)) * 16U * TIM_CALC_DTS((__TIMCLK__), (__
  970:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****     (uint8_t)(DT_RANGE_4 | ((uint8_t)((uint8_t)(((((uint64_t)(__DT__)*1000U))/ TIM_CALC_DTS((__TIMC
-ARM GAS  /tmp/ccGaeuuA.s 			page 133
+ARM GAS  /tmp/cc1ph3g4.s 			page 133
 
 
  971:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****                                                  (__CKD__))) >> 4U) - (uint8_t) 32) & DT_DELAY_4)) 
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1025:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  __ICPSC__ This parameter can be one of the following values:
 1026:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV1
 1027:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV2
-ARM GAS  /tmp/ccGaeuuA.s 			page 134
+ARM GAS  /tmp/cc1ph3g4.s 			page 134
 
 
 1028:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV4
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1170 0016 0C37     		adds	r7, r7, #12
  1171              	.LCFI105:
  1172              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccGaeuuA.s 			page 135
+ARM GAS  /tmp/cc1ph3g4.s 			page 135
 
 
  1173 0018 BD46     		mov	sp, r7
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1218              	.LCFI111:
  1219              		.cfi_def_cfa_offset 4
  1220 0018 BD46     		mov	sp, r7
-ARM GAS  /tmp/ccGaeuuA.s 			page 136
+ARM GAS  /tmp/cc1ph3g4.s 			page 136
 
 
  1221              	.LCFI112:
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1106:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
 1107:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval Inverted state of bit (0 or 1).
 1108:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 137
+ARM GAS  /tmp/cc1ph3g4.s 			page 137
 
 
 1109:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsEnabledUpdateEvent(const TIM_TypeDef *TIMx)
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1163:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @brief  Get actual one pulse mode.
 1164:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @rmtoll CR1          OPM           LL_TIM_GetOnePulseMode
 1165:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
-ARM GAS  /tmp/ccGaeuuA.s 			page 138
+ARM GAS  /tmp/cc1ph3g4.s 			page 138
 
 
 1166:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval Returned value can be one of the following values:
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1220:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   if (counter_mode == 0U)
 1221:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   {
 1222:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****     counter_mode = (uint32_t)(READ_BIT(TIMx->CR1, TIM_CR1_DIR));
-ARM GAS  /tmp/ccGaeuuA.s 			page 139
+ARM GAS  /tmp/cc1ph3g4.s 			page 139
 
 
 1223:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   }
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1280              		.align	1
  1281              		.syntax unified
  1282              		.thumb
-ARM GAS  /tmp/ccGaeuuA.s 			page 140
+ARM GAS  /tmp/cc1ph3g4.s 			page 140
 
 
  1283              		.thumb_func
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1289:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV1
 1290:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV2
 1291:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV4
-ARM GAS  /tmp/ccGaeuuA.s 			page 141
+ARM GAS  /tmp/cc1ph3g4.s 			page 141
 
 
 1292:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1346:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
  1287              		.loc 4 1346 1
  1288              		.cfi_startproc
-ARM GAS  /tmp/ccGaeuuA.s 			page 142
+ARM GAS  /tmp/cc1ph3g4.s 			page 142
 
 
  1289              		@ args = 0, pretend = 0, frame = 8
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1359:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** }
 1360:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
 1361:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 143
+ARM GAS  /tmp/cc1ph3g4.s 			page 143
 
 
 1362:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @brief  Set the auto-reload value.
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1377              	LL_TIM_CC_EnableChannel:
  1378              	.LFB269:
 1374:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 144
+ARM GAS  /tmp/cc1ph3g4.s 			page 144
 
 
 1375:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1429:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
 1430:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
 1431:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_CC_EnablePreload(TIM_TypeDef *TIMx)
-ARM GAS  /tmp/ccGaeuuA.s 			page 145
+ARM GAS  /tmp/cc1ph3g4.s 			page 145
 
 
 1432:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1486:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
 1487:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_CC_GetDMAReqTrigger(const TIM_TypeDef *TIMx)
 1488:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
-ARM GAS  /tmp/ccGaeuuA.s 			page 146
+ARM GAS  /tmp/cc1ph3g4.s 			page 146
 
 
 1489:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   return (uint32_t)(READ_BIT(TIMx->CR2, TIM_CR2_CCDS));
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1389              	.LCFI133:
  1390              		.cfi_def_cfa_offset 16
  1391 0004 00AF     		add	r7, sp, #0
-ARM GAS  /tmp/ccGaeuuA.s 			page 147
+ARM GAS  /tmp/cc1ph3g4.s 			page 147
 
 
  1392              	.LCFI134:
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1553:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
 1554:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
 1555:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 148
+ARM GAS  /tmp/cc1ph3g4.s 			page 148
 
 
 1556:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_CC_DisableChannel(TIM_TypeDef *TIMx, uint32_t Channels)
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1610:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
 1611:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
 1612:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
-ARM GAS  /tmp/ccGaeuuA.s 			page 149
+ARM GAS  /tmp/cc1ph3g4.s 			page 149
 
 
 1613:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  Configuration This parameter must be a combination of all the following values:
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1667:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 1668:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 1669:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
-ARM GAS  /tmp/ccGaeuuA.s 			page 150
+ARM GAS  /tmp/cc1ph3g4.s 			page 150
 
 
 1670:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1724:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCER         CC3P          LL_TIM_OC_GetPolarity\n
 1725:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCER         CC3NP         LL_TIM_OC_GetPolarity\n
 1726:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCER         CC4P          LL_TIM_OC_GetPolarity
-ARM GAS  /tmp/ccGaeuuA.s 			page 151
+ARM GAS  /tmp/cc1ph3g4.s 			page 151
 
 
 1727:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1781:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @rmtoll CR2         OIS1          LL_TIM_OC_GetIdleState\n
 1782:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CR2         OIS1N         LL_TIM_OC_GetIdleState\n
 1783:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CR2         OIS2          LL_TIM_OC_GetIdleState\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 152
+ARM GAS  /tmp/cc1ph3g4.s 			page 152
 
 
 1784:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CR2         OIS2N         LL_TIM_OC_GetIdleState\n
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1838:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 1839:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
 1840:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
-ARM GAS  /tmp/ccGaeuuA.s 			page 153
+ARM GAS  /tmp/cc1ph3g4.s 			page 153
 
 
 1841:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1476              	.L50:
  1477              		.loc 4 1846 11 discriminator 10
  1478 003a 0423     		movs	r3, #4
-ARM GAS  /tmp/ccGaeuuA.s 			page 154
+ARM GAS  /tmp/cc1ph3g4.s 			page 154
 
 
  1479 003c 06E0     		b	.L57
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1529 007a BD46     		mov	sp, r7
  1530              	.LCFI142:
  1531              		.cfi_def_cfa_register 13
-ARM GAS  /tmp/ccGaeuuA.s 			page 155
+ARM GAS  /tmp/cc1ph3g4.s 			page 155
 
 
  1532              		@ sp needed
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1885:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
 1886:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
 1887:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 156
+ARM GAS  /tmp/cc1ph3g4.s 			page 156
 
 
 1888:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_EnablePreload(TIM_TypeDef *TIMx, uint32_t Channel)
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1605 003c 06E0     		b	.L72
  1606              	.L64:
  1607              		.loc 4 1890 11 discriminator 8
-ARM GAS  /tmp/ccGaeuuA.s 			page 157
+ARM GAS  /tmp/cc1ph3g4.s 			page 157
 
 
  1608 003e 0323     		movs	r3, #3
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1659              	.LCFI149:
  1660              		.cfi_restore 7
  1661              		.cfi_def_cfa_offset 0
-ARM GAS  /tmp/ccGaeuuA.s 			page 158
+ARM GAS  /tmp/cc1ph3g4.s 			page 158
 
 
  1662 007c 7047     		bx	lr
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1933:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   const __IO uint32_t *pReg = (__IO uint32_t *)((uint32_t)((uint32_t)(&TIMx->CCMR1) + OFFSET_TAB_CC
 1934:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   uint32_t bitfield = TIM_CCMR1_OC1PE << SHIFT_TAB_OCxx[iChannel];
 1935:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   return ((READ_BIT(*pReg, bitfield) == bitfield) ? 1UL : 0UL);
-ARM GAS  /tmp/ccGaeuuA.s 			page 159
+ARM GAS  /tmp/cc1ph3g4.s 			page 159
 
 
 1936:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** }
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1990:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *       or not a timer instance can clear the OCxREF signal on an external event.
 1991:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @rmtoll CCMR1        OC1CE          LL_TIM_OC_IsEnabledClear\n
 1992:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCMR1        OC2CE          LL_TIM_OC_IsEnabledClear\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 160
+ARM GAS  /tmp/cc1ph3g4.s 			page 160
 
 
 1993:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCMR2        OC3CE          LL_TIM_OC_IsEnabledClear\n
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2047:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  CompareValue between Min_Data=0 and Max_Data=65535
 2048:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
 2049:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 161
+ARM GAS  /tmp/cc1ph3g4.s 			page 161
 
 
 2050:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_SetCompareCH2(TIM_TypeDef *TIMx, uint32_t CompareValue)
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2104:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_OC_GetCompareCH2(const TIM_TypeDef *TIMx)
 2105:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
 2106:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   return (uint32_t)(READ_REG(TIMx->CCR2));
-ARM GAS  /tmp/ccGaeuuA.s 			page 162
+ARM GAS  /tmp/cc1ph3g4.s 			page 162
 
 
 2107:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** }
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2161:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCER         CC3NP         LL_TIM_IC_Config\n
 2162:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCER         CC4P          LL_TIM_IC_Config\n
 2163:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
-ARM GAS  /tmp/ccGaeuuA.s 			page 163
+ARM GAS  /tmp/cc1ph3g4.s 			page 163
 
 
 2164:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2218:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
 2219:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 2220:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
-ARM GAS  /tmp/ccGaeuuA.s 			page 164
+ARM GAS  /tmp/cc1ph3g4.s 			page 164
 
 
 2221:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2275:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV1
 2276:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV2
 2277:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV4
-ARM GAS  /tmp/ccGaeuuA.s 			page 165
+ARM GAS  /tmp/cc1ph3g4.s 			page 165
 
 
 2278:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV8
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2332:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 2333:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 2334:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
-ARM GAS  /tmp/ccGaeuuA.s 			page 166
+ARM GAS  /tmp/cc1ph3g4.s 			page 166
 
 
 2335:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2389:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
 2390:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @brief  Get the current input channel polarity.
 2391:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @rmtoll CCER         CC1P          LL_TIM_IC_GetPolarity\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 167
+ARM GAS  /tmp/cc1ph3g4.s 			page 167
 
 
 2392:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         CCER         CC1NP         LL_TIM_IC_GetPolarity\n
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2446:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
 2447:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval State of bit (1 or 0).
 2448:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 168
+ARM GAS  /tmp/cc1ph3g4.s 			page 168
 
 
 2449:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IC_IsEnabledXORCombination(const TIM_TypeDef *TIMx)
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2503:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   return (uint32_t)(READ_REG(TIMx->CCR4));
 2504:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** }
 2505:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 169
+ARM GAS  /tmp/cc1ph3g4.s 			page 169
 
 
 2506:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** /**
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2560:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *       whether or not a timer instance supports external clock mode1.
 2561:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @note Macro IS_TIM_CLOCKSOURCE_ETRMODE2_INSTANCE(TIMx) can be used to check
 2562:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *       whether or not a timer instance supports external clock mode2.
-ARM GAS  /tmp/ccGaeuuA.s 			page 170
+ARM GAS  /tmp/cc1ph3g4.s 			page 170
 
 
 2563:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @rmtoll SMCR         SMS           LL_TIM_SetClockSource\n
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1720              	.LFE316:
  1722              		.section	.text.LL_TIM_SetTriggerOutput,"ax",%progbits
  1723              		.align	1
-ARM GAS  /tmp/ccGaeuuA.s 			page 171
+ARM GAS  /tmp/cc1ph3g4.s 			page 171
 
 
  1724              		.syntax unified
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1735 0000 80B4     		push	{r7}
  1736              	.LCFI156:
  1737              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccGaeuuA.s 			page 172
+ARM GAS  /tmp/cc1ph3g4.s 			page 172
 
 
  1738              		.cfi_offset 7, -4
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2634:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
 2635:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
 2636:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_SetSlaveMode(TIM_TypeDef *TIMx, uint32_t SlaveMode)
-ARM GAS  /tmp/ccGaeuuA.s 			page 173
+ARM GAS  /tmp/cc1ph3g4.s 			page 173
 
 
 2637:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1785 0000 80B4     		push	{r7}
  1786              	.LCFI162:
  1787              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccGaeuuA.s 			page 174
+ARM GAS  /tmp/cc1ph3g4.s 			page 174
 
 
  1788              		.cfi_offset 7, -4
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2703:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @brief  Configure the external trigger (ETR) input.
 2704:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @note Macro IS_TIM_ETR_INSTANCE(TIMx) can be used to check whether or not
 2705:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *       a timer instance provides an external trigger input.
-ARM GAS  /tmp/ccGaeuuA.s 			page 175
+ARM GAS  /tmp/cc1ph3g4.s 			page 175
 
 
 2706:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @rmtoll SMCR         ETP           LL_TIM_ConfigETR\n
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2760:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   __IO uint32_t tmpreg;
 2761:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   SET_BIT(TIMx->BDTR, TIM_BDTR_BKE);
 2762:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   /* Note: Any write operation to this bit takes a delay of 1 APB clock cycle to become effective. 
-ARM GAS  /tmp/ccGaeuuA.s 			page 176
+ARM GAS  /tmp/cc1ph3g4.s 			page 176
 
 
 2763:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   tmpreg = READ_REG(TIMx->BDTR);
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2817:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
 2818:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
 2819:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_SetOffStates(TIM_TypeDef *TIMx, uint32_t OffStateIdle, uint32_t OffStat
-ARM GAS  /tmp/ccGaeuuA.s 			page 177
+ARM GAS  /tmp/cc1ph3g4.s 			page 177
 
 
 2820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** {
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1866              		.section	.text.LL_TIM_EnableAllOutputs,"ax",%progbits
  1867              		.align	1
  1868              		.syntax unified
-ARM GAS  /tmp/ccGaeuuA.s 			page 178
+ARM GAS  /tmp/cc1ph3g4.s 			page 178
 
 
  1869              		.thumb
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1885              		.cfi_def_cfa_offset 16
  1886 0004 00AF     		add	r7, sp, #0
  1887              	.LCFI176:
-ARM GAS  /tmp/ccGaeuuA.s 			page 179
+ARM GAS  /tmp/cc1ph3g4.s 			page 179
 
 
  1888              		.cfi_def_cfa_register 7
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2898:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @param  TIMx Timer instance
 2899:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval State of bit (1 or 0).
 2900:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 180
+ARM GAS  /tmp/cc1ph3g4.s 			page 180
 
 
 2901:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsEnabledAllOutputs(const TIM_TypeDef *TIMx)
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 2955:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_16TRANSFERS
 2956:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_17TRANSFERS
 2957:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_18TRANSFERS
-ARM GAS  /tmp/ccGaeuuA.s 			page 181
+ARM GAS  /tmp/cc1ph3g4.s 			page 181
 
 
 2958:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h ****   * @retval None
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1950 0016 80BC     		pop	{r7}
  1951              	.LCFI185:
  1952              		.cfi_restore 7
-ARM GAS  /tmp/ccGaeuuA.s 			page 182
+ARM GAS  /tmp/cc1ph3g4.s 			page 182
 
 
  1953              		.cfi_def_cfa_offset 0
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  1998 001c 0C37     		adds	r7, r7, #12
  1999              	.LCFI189:
  2000              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccGaeuuA.s 			page 183
+ARM GAS  /tmp/cc1ph3g4.s 			page 183
 
 
  2001 001e BD46     		mov	sp, r7
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   36:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #ifndef __STM32F1xx_LL_BUS_H
   37:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define __STM32F1xx_LL_BUS_H
   38:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 184
+ARM GAS  /tmp/cc1ph3g4.s 			page 184
 
 
   39:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #ifdef __cplusplus
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   93:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(SDIO)
   94:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_AHB1_GRP1_PERIPH_SDIO           RCC_AHBENR_SDIOEN
   95:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /*SDIO*/
-ARM GAS  /tmp/ccGaeuuA.s 			page 185
+ARM GAS  /tmp/cc1ph3g4.s 			page 185
 
 
   96:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_AHB1_GRP1_PERIPH_SRAM           RCC_AHBENR_SRAMEN
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  150:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_APB1_GRP1_PERIPH_TIM7           RCC_APB1ENR_TIM7EN
  151:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /*TIM7*/
  152:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(UART4)
-ARM GAS  /tmp/ccGaeuuA.s 			page 186
+ARM GAS  /tmp/cc1ph3g4.s 			page 186
 
 
  153:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_APB1_GRP1_PERIPH_UART4          RCC_APB1ENR_UART4EN
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  207:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /*TIM16*/
  208:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(TIM17)
  209:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_APB2_GRP1_PERIPH_TIM17          RCC_APB2ENR_TIM17EN
-ARM GAS  /tmp/ccGaeuuA.s 			page 187
+ARM GAS  /tmp/cc1ph3g4.s 			page 187
 
 
  210:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /*TIM17*/
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  264:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         (*) value not defined in all devices.
  265:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @retval None
  266:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** */
-ARM GAS  /tmp/ccGaeuuA.s 			page 188
+ARM GAS  /tmp/cc1ph3g4.s 			page 188
 
 
  267:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** __STATIC_INLINE void LL_AHB1_GRP1_EnableClock(uint32_t Periphs)
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2068              	.L87:
  2069 002a 00BF     		.align	2
  2070              	.L86:
-ARM GAS  /tmp/ccGaeuuA.s 			page 189
+ARM GAS  /tmp/cc1ph3g4.s 			page 189
 
 
  2071 002c 00100240 		.word	1073876992
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  319:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       FSMCEN        LL_AHB1_GRP1_DisableClock\n
  320:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       OTGFSEN       LL_AHB1_GRP1_DisableClock\n
  321:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       SDIOEN        LL_AHB1_GRP1_DisableClock\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 190
+ARM GAS  /tmp/cc1ph3g4.s 			page 190
 
 
  322:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       SRAMEN        LL_AHB1_GRP1_DisableClock
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  376:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   CLEAR_BIT(RCC->AHBRSTR, Periphs);
  377:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** }
  378:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /* RCC_AHBRSTR_SUPPORT */
-ARM GAS  /tmp/ccGaeuuA.s 			page 191
+ARM GAS  /tmp/cc1ph3g4.s 			page 191
 
 
  379:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** 
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  433:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM6 (*)
  434:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM7 (*)
  435:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_UART4 (*)
-ARM GAS  /tmp/ccGaeuuA.s 			page 192
+ARM GAS  /tmp/cc1ph3g4.s 			page 192
 
 
  436:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_UART5 (*)
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2120 0024 BD46     		mov	sp, r7
  2121              	.LCFI202:
  2122              		.cfi_def_cfa_register 13
-ARM GAS  /tmp/ccGaeuuA.s 			page 193
+ARM GAS  /tmp/cc1ph3g4.s 			page 193
 
 
  2123              		@ sp needed
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  488:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_I2C2 (*)
  489:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_PWR
  490:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_SPI2 (*)
-ARM GAS  /tmp/ccGaeuuA.s 			page 194
+ARM GAS  /tmp/cc1ph3g4.s 			page 194
 
 
  491:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_SPI3 (*)
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  545:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_CAN1 (*)
  546:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_CAN2 (*)
  547:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_CEC (*)
-ARM GAS  /tmp/ccGaeuuA.s 			page 195
+ARM GAS  /tmp/cc1ph3g4.s 			page 195
 
 
  548:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_DAC1 (*)
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  602:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     USART3RST     LL_APB1_GRP1_ForceReset\n
  603:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     USBRST        LL_APB1_GRP1_ForceReset\n
  604:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     WWDGRST       LL_APB1_GRP1_ForceReset
-ARM GAS  /tmp/ccGaeuuA.s 			page 196
+ARM GAS  /tmp/cc1ph3g4.s 			page 196
 
 
  605:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  659:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     TIM5RST       LL_APB1_GRP1_ReleaseReset\n
  660:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     TIM6RST       LL_APB1_GRP1_ReleaseReset\n
  661:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     TIM7RST       LL_APB1_GRP1_ReleaseReset\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 197
+ARM GAS  /tmp/cc1ph3g4.s 			page 197
 
 
  662:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     UART4RST      LL_APB1_GRP1_ReleaseReset\n
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  716:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB2ENR      ADC3EN        LL_APB2_GRP1_EnableClock\n
  717:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB2ENR      AFIOEN        LL_APB2_GRP1_EnableClock\n
  718:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB2ENR      IOPAEN        LL_APB2_GRP1_EnableClock\n
-ARM GAS  /tmp/ccGaeuuA.s 			page 198
+ARM GAS  /tmp/cc1ph3g4.s 			page 198
 
 
  719:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB2ENR      IOPBEN        LL_APB2_GRP1_EnableClock\n
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2154              	.LCFI205:
  2155              		.cfi_def_cfa_offset 24
  2156 0004 00AF     		add	r7, sp, #0
-ARM GAS  /tmp/ccGaeuuA.s 			page 199
+ARM GAS  /tmp/cc1ph3g4.s 			page 199
 
 
  2157              	.LCFI206:
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
    2:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   ******************************************************************************
    3:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @file    stm32f1xx_ll_gpio.h
    4:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @author  MCD Application Team
-ARM GAS  /tmp/ccGaeuuA.s 			page 200
+ARM GAS  /tmp/cc1ph3g4.s 			page 200
 
 
    5:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief   Header file of GPIO LL module.
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   59:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
   60:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
   61:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @}
-ARM GAS  /tmp/ccGaeuuA.s 			page 201
+ARM GAS  /tmp/cc1ph3g4.s 			page 201
 
 
   62:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  116:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_3                    ((GPIO_BSRR_BS3  << GPIO_PIN_MASK_POS) | 0x00000008U)  /*!
  117:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_4                    ((GPIO_BSRR_BS4  << GPIO_PIN_MASK_POS) | 0x00000010U)  /*!
  118:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_5                    ((GPIO_BSRR_BS5  << GPIO_PIN_MASK_POS) | 0x00000020U)  /*!
-ARM GAS  /tmp/ccGaeuuA.s 			page 202
+ARM GAS  /tmp/cc1ph3g4.s 			page 202
 
 
  119:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_6                    ((GPIO_BSRR_BS6  << GPIO_PIN_MASK_POS) | 0x00000040U)  /*!
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  173:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
  174:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /** @defgroup GPIO_LL_EC_PULL Pull Up Pull Down
  175:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @{
-ARM GAS  /tmp/ccGaeuuA.s 			page 203
+ARM GAS  /tmp/cc1ph3g4.s 			page 203
 
 
  176:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  230:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_PORTE            4U   /*!< EXTI PORT E */
  231:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_PORTF            5U   /*!< EXTI PORT F */
  232:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_PORTG            6U   /*!< EXTI PORT G */
-ARM GAS  /tmp/ccGaeuuA.s 			page 204
+ARM GAS  /tmp/cc1ph3g4.s 			page 204
 
 
  233:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  287:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
  288:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_ReadReg(__INSTANCE__, __REG__) READ_REG(__INSTANCE__->__REG__)
  289:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 205
+ARM GAS  /tmp/cc1ph3g4.s 			page 205
 
 
  290:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @}
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  344:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   MODIFY_REG(*pReg, ((GPIO_CRL_CNF0 | GPIO_CRL_MODE0) << (POSITION_VAL(Pin) * 4U)), (Mode << (POSIT
  345:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
  346:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 206
+ARM GAS  /tmp/cc1ph3g4.s 			page 206
 
 
  347:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  401:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_4
  402:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_5
  403:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_6
-ARM GAS  /tmp/ccGaeuuA.s 			page 207
+ARM GAS  /tmp/cc1ph3g4.s 			page 207
 
 
  404:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  458:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
  459:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   register uint32_t *pReg = (uint32_t *)((uint32_t)((uint32_t)(&GPIOx->CRL) + (Pin >> 24)));
  460:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   return (READ_BIT(*pReg, (GPIO_CRL_MODE0 << (POSITION_VAL(Pin) * 4U))) >> (POSITION_VAL(Pin) * 4U)
-ARM GAS  /tmp/ccGaeuuA.s 			page 208
+ARM GAS  /tmp/cc1ph3g4.s 			page 208
 
 
  461:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  515:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_6
  516:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
  517:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
-ARM GAS  /tmp/ccGaeuuA.s 			page 209
+ARM GAS  /tmp/cc1ph3g4.s 			page 209
 
 
  518:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  572:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @rmtoll ODR        ODR         LL_GPIO_GetPinPull
  573:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
  574:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @param  Pin This parameter can be one of the following values:
-ARM GAS  /tmp/ccGaeuuA.s 			page 210
+ARM GAS  /tmp/cc1ph3g4.s 			page 210
 
 
  575:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_0
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  629:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** __STATIC_INLINE void LL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint32_t PinMask)
  630:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
  631:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   __IO uint32_t temp;
-ARM GAS  /tmp/ccGaeuuA.s 			page 211
+ARM GAS  /tmp/cc1ph3g4.s 			page 211
 
 
  632:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   WRITE_REG(GPIOx->LCKR, GPIO_LCKR_LCKK | ((PinMask >> GPIO_PIN_MASK_POS) & 0x0000FFFFU));
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  686:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
  687:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
  688:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief  Return full input data register value for a dedicated port.
-ARM GAS  /tmp/ccGaeuuA.s 			page 212
+ARM GAS  /tmp/cc1ph3g4.s 			page 212
 
 
  689:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @rmtoll IDR          IDy           LL_GPIO_ReadInputPort
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  743:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @retval Output data register value of port
  744:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
  745:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** __STATIC_INLINE uint32_t LL_GPIO_ReadOutputPort(GPIO_TypeDef *GPIOx)
-ARM GAS  /tmp/ccGaeuuA.s 			page 213
+ARM GAS  /tmp/cc1ph3g4.s 			page 213
 
 
  746:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  800:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_ALL
  801:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @retval None
  802:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 214
+ARM GAS  /tmp/cc1ph3g4.s 			page 214
 
 
  803:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** __STATIC_INLINE void LL_GPIO_SetOutputPin(GPIO_TypeDef *GPIOx, uint32_t PinMask)
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  857:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_15
  858:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_ALL
  859:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @retval None
-ARM GAS  /tmp/ccGaeuuA.s 			page 215
+ARM GAS  /tmp/cc1ph3g4.s 			page 215
 
 
  860:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  914:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
  915:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** __STATIC_INLINE void LL_GPIO_AF_EnableRemap_I2C1(void)
  916:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
-ARM GAS  /tmp/ccGaeuuA.s 			page 216
+ARM GAS  /tmp/cc1ph3g4.s 			page 216
 
 
  917:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   SET_BIT(AFIO->MAPR, AFIO_MAPR_I2C1_REMAP | AFIO_MAPR_SWJ_CFG);
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  971:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
  972:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
  973:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
-ARM GAS  /tmp/ccGaeuuA.s 			page 217
+ARM GAS  /tmp/cc1ph3g4.s 			page 217
 
 
  974:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief Enable the remapping of USART2 alternate function CTS, RTS, CK, TX and RX.
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
 1028:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
 1029:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief Disable the remapping of USART3 alternate function CTS, RTS, CK, TX and RX.
 1030:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @rmtoll MAPR          USART3_REMAP           LL_GPIO_AF_DisableRemap_USART3
-ARM GAS  /tmp/ccGaeuuA.s 			page 218
+ARM GAS  /tmp/cc1ph3g4.s 			page 218
 
 
 1031:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @note  DISABLE: No remap      (TX/PB10, RX/PB11, CK/PB12, CTS/PB13, RTS/PB14)
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2230              	.LCFI212:
  2231              		.cfi_def_cfa_register 13
  2232              		@ sp needed
-ARM GAS  /tmp/ccGaeuuA.s 			page 219
+ARM GAS  /tmp/cc1ph3g4.s 			page 219
 
 
  2233 0020 80BC     		pop	{r7}
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   36:Core/Inc/delay_class.h **** #include "stm32f1xx.h"
   37:Core/Inc/delay_class.h **** /* USER CODE END Includes */
   38:Core/Inc/delay_class.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 220
+ARM GAS  /tmp/cc1ph3g4.s 			page 220
 
 
   39:Core/Inc/delay_class.h **** /* Exported types ------------------------------------------------------------*/
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   93:Core/Inc/delay_class.h **** }
   94:Core/Inc/delay_class.h **** 
   95:Core/Inc/delay_class.h **** __STATIC_INLINE void us_delay(TIM_TypeDef *TIMX,int us)
-ARM GAS  /tmp/ccGaeuuA.s 			page 221
+ARM GAS  /tmp/cc1ph3g4.s 			page 221
 
 
   96:Core/Inc/delay_class.h **** {
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2297 0038 FFF7FEFF 		bl	LL_TIM_EnableCounter
  107:Core/Inc/delay_class.h **** 
  108:Core/Inc/delay_class.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 222
+ARM GAS  /tmp/cc1ph3g4.s 			page 222
 
 
  109:Core/Inc/delay_class.h ****             while(LL_TIM_IsActiveFlag_UPDATE(TIMX)==0);
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
    8:Core/Inc/USART_OPERATION.h ****   * @attention
    9:Core/Inc/USART_OPERATION.h ****   *
   10:Core/Inc/USART_OPERATION.h ****   * Copyright (c) 2024 STMicroelectronics.
-ARM GAS  /tmp/ccGaeuuA.s 			page 223
+ARM GAS  /tmp/cc1ph3g4.s 			page 223
 
 
   11:Core/Inc/USART_OPERATION.h ****   * All rights reserved.
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2339              		@ frame_needed = 1, uses_anonymous_args = 0
  2340              		@ link register save eliminated.
  2341 0000 80B4     		push	{r7}
-ARM GAS  /tmp/ccGaeuuA.s 			page 224
+ARM GAS  /tmp/cc1ph3g4.s 			page 224
 
 
  2342              	.LCFI219:
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2384 0028 80BC     		pop	{r7}
  2385              	.LCFI224:
  2386              		.cfi_restore 7
-ARM GAS  /tmp/ccGaeuuA.s 			page 225
+ARM GAS  /tmp/cc1ph3g4.s 			page 225
 
 
  2387              		.cfi_def_cfa_offset 0
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2428              		.cfi_def_cfa_offset 8
  2429 001c BD46     		mov	sp, r7
  2430              	.LCFI229:
-ARM GAS  /tmp/ccGaeuuA.s 			page 226
+ARM GAS  /tmp/cc1ph3g4.s 			page 226
 
 
  2431              		.cfi_def_cfa_register 13
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   99:Core/Inc/USART_OPERATION.h **** 
  100:Core/Inc/USART_OPERATION.h ****   }
  101:Core/Inc/USART_OPERATION.h ****   else if(ID_Judgement(data_temp) == ack)
-ARM GAS  /tmp/ccGaeuuA.s 			page 227
+ARM GAS  /tmp/cc1ph3g4.s 			page 227
 
 
  2477              		.loc 8 101 11
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
    9:Core/Inc/PWM_Ctrl.h ****   *
   10:Core/Inc/PWM_Ctrl.h ****   * Copyright (c) 2024 STMicroelectronics.
   11:Core/Inc/PWM_Ctrl.h ****   * All rights reserved.
-ARM GAS  /tmp/ccGaeuuA.s 			page 228
+ARM GAS  /tmp/cc1ph3g4.s 			page 228
 
 
   12:Core/Inc/PWM_Ctrl.h ****   *
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   66:Core/Inc/PWM_Ctrl.h **** __STATIC_INLINE void Advance_TIMX_PWM_INIGTION(TIM_TypeDef *TIMX)
   67:Core/Inc/PWM_Ctrl.h **** {
  2515              		.loc 9 67 1
-ARM GAS  /tmp/ccGaeuuA.s 			page 229
+ARM GAS  /tmp/cc1ph3g4.s 			page 229
 
 
  2516              		.cfi_startproc
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2564              	.LFB679:
   76:Core/Inc/PWM_Ctrl.h **** 
   77:Core/Inc/PWM_Ctrl.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 230
+ARM GAS  /tmp/cc1ph3g4.s 			page 230
 
 
   78:Core/Inc/PWM_Ctrl.h **** 
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2608              	ADC_By_Consultant:
  2609              	.LFB680:
  2610              		.file 10 "Core/Inc/ADC_config.h"
-ARM GAS  /tmp/ccGaeuuA.s 			page 231
+ARM GAS  /tmp/cc1ph3g4.s 			page 231
 
 
    1:Core/Inc/ADC_config.h **** /* USER CODE BEGIN Header */
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   55:Core/Inc/ADC_config.h **** 
   56:Core/Inc/ADC_config.h **** /* Exported functions prototypes ---------------------------------------------*/
   57:Core/Inc/ADC_config.h **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 232
+ARM GAS  /tmp/cc1ph3g4.s 			page 232
 
 
   58:Core/Inc/ADC_config.h **** /* USER CODE BEGIN EFP */
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2648 002a 1846     		mov	r0, r3
  2649 002c 0837     		adds	r7, r7, #8
  2650              	.LCFI248:
-ARM GAS  /tmp/ccGaeuuA.s 			page 233
+ARM GAS  /tmp/cc1ph3g4.s 			page 233
 
 
  2651              		.cfi_def_cfa_offset 8
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2698              		.thumb_func
  2700              	Get_ADC_INIT_VALUE:
  2701              	.LFB683:
-ARM GAS  /tmp/ccGaeuuA.s 			page 234
+ARM GAS  /tmp/cc1ph3g4.s 			page 234
 
 
   85:Core/Inc/ADC_config.h **** /*
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2735              	.LCFI256:
  2736              		.cfi_def_cfa_register 13
  2737              		@ sp needed
-ARM GAS  /tmp/ccGaeuuA.s 			page 235
+ARM GAS  /tmp/cc1ph3g4.s 			page 235
 
 
  2738 0022 80BD     		pop	{r7, pc}
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2797              	.LFB684:
  2798              		.file 11 "Core/Src/main.c"
    1:Core/Src/main.c **** /* USER CODE BEGIN Header */
-ARM GAS  /tmp/ccGaeuuA.s 			page 236
+ARM GAS  /tmp/cc1ph3g4.s 			page 236
 
 
    2:Core/Src/main.c **** /**
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
   56:Core/Src/main.c **** // #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
   57:Core/Src/main.c **** // #endif
   58:Core/Src/main.c **** // PUTCHAR_PROTOTYPE
-ARM GAS  /tmp/ccGaeuuA.s 			page 237
+ARM GAS  /tmp/cc1ph3g4.s 			page 237
 
 
   59:Core/Src/main.c **** // {
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2812              	.LCFI259:
  2813              		.cfi_def_cfa 7, 64
  100:Core/Src/main.c ****   /* USER CODE BEGIN 1 */
-ARM GAS  /tmp/ccGaeuuA.s 			page 238
+ARM GAS  /tmp/cc1ph3g4.s 			page 238
 
 
  101:Core/Src/main.c **** 
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2834              		.loc 11 134 3
  2835 002e 2348     		ldr	r0, .L126
  2836 0030 FFF7FEFF 		bl	Advance_TIMX_PWM_INIGTION
-ARM GAS  /tmp/ccGaeuuA.s 			page 239
+ARM GAS  /tmp/cc1ph3g4.s 			page 239
 
 
  135:Core/Src/main.c **** 
@@ -14325,7 +14325,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  156:Core/Src/main.c ****   while (1)
  157:Core/Src/main.c ****   {
  158:Core/Src/main.c ****        // LL_TIM_OC_SetCompareCH1(TIM1, 269);
- 159:Core/Src/main.c ****        Set_And_Convert_Duty_ALL(90);
+ 159:Core/Src/main.c ****        Set_And_Convert_Duty_ALL(10);
  2857              		.loc 11 159 8
  2858 005a 1E48     		ldr	r0, .L126+24
  2859 005c FFF7FEFF 		bl	Set_And_Convert_Duty_ALL
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2863              		.loc 11 162 8
  2864 0064 1946     		mov	r1, r3
  2865 0066 1D48     		ldr	r0, .L126+32
-ARM GAS  /tmp/ccGaeuuA.s 			page 240
+ARM GAS  /tmp/cc1ph3g4.s 			page 240
 
 
  2866 0068 FFF7FEFF 		bl	us_delay
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  188:Core/Src/main.c ****       HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2,GPIO_PIN_RESET);
  2895              		.loc 11 188 7
  2896 009c 0022     		movs	r2, #0
-ARM GAS  /tmp/ccGaeuuA.s 			page 241
+ARM GAS  /tmp/cc1ph3g4.s 			page 241
 
 
  2897 009e 0421     		movs	r1, #4
@@ -14436,7 +14436,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  2922 00c8 00000000 		.word	ADC1_Operation
  2923 00cc ACC5A737 		.word	933741996
  2924 00d0 0AD7A33C 		.word	1017370378
- 2925 00d4 0000B442 		.word	1119092736
+ 2925 00d4 00002041 		.word	1092616192
  2926 00d8 00000000 		.word	TARGET
  2927 00dc 00140040 		.word	1073746944
  2928 00e0 00000000 		.word	uart_receive_data
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  198:Core/Src/main.c **** 
  199:Core/Src/main.c ****     /* USER CODE END WHILE */
  200:Core/Src/main.c **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 242
+ARM GAS  /tmp/cc1ph3g4.s 			page 242
 
 
  201:Core/Src/main.c ****     /* USER CODE BEGIN 3 */
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  217:Core/Src/main.c ****   * in the RCC_OscInitTypeDef structure.
  218:Core/Src/main.c ****   */
  219:Core/Src/main.c ****   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-ARM GAS  /tmp/ccGaeuuA.s 			page 243
+ARM GAS  /tmp/cc1ph3g4.s 			page 243
 
 
  2981              		.loc 11 219 36
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  236:Core/Src/main.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
  3019              		.loc 11 236 35
  3020 0072 0023     		movs	r3, #0
-ARM GAS  /tmp/ccGaeuuA.s 			page 244
+ARM GAS  /tmp/cc1ph3g4.s 			page 244
 
 
  3021 0074 7B62     		str	r3, [r7, #36]
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3061              		.cfi_def_cfa_offset 8
  3062 00b6 BD46     		mov	sp, r7
  3063              	.LCFI264:
-ARM GAS  /tmp/ccGaeuuA.s 			page 245
+ARM GAS  /tmp/cc1ph3g4.s 			page 245
 
 
  3064              		.cfi_def_cfa_register 13
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3106              		.loc 11 264 1
  3107 0024 00BF     		nop
  3108 0026 80BD     		pop	{r7, pc}
-ARM GAS  /tmp/ccGaeuuA.s 			page 246
+ARM GAS  /tmp/cc1ph3g4.s 			page 246
 
 
  3109              		.cfi_endproc
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3150 001e F9D1     		bne	.L135
  280:Core/Src/main.c **** 
  281:Core/Src/main.c **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 247
+ARM GAS  /tmp/cc1ph3g4.s 			page 247
 
 
  282:Core/Src/main.c ****   /* USER CODE END ADC1_Init 0 */
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3187              		.loc 11 299 3
  3188 0064 3B1D     		adds	r3, r7, #4
  3189 0066 1946     		mov	r1, r3
-ARM GAS  /tmp/ccGaeuuA.s 			page 248
+ARM GAS  /tmp/cc1ph3g4.s 			page 248
 
 
  3190 0068 3048     		ldr	r0, .L136+4
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  317:Core/Src/main.c **** 
  318:Core/Src/main.c ****   /* USER CODE BEGIN ADC1_Init 1 */
  319:Core/Src/main.c **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 249
+ARM GAS  /tmp/cc1ph3g4.s 			page 249
 
 
  320:Core/Src/main.c ****   /* USER CODE END ADC1_Init 1 */
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  335:Core/Src/main.c **** 
  336:Core/Src/main.c ****   /** Configure Regular Channel
  337:Core/Src/main.c ****   */
-ARM GAS  /tmp/ccGaeuuA.s 			page 250
+ARM GAS  /tmp/cc1ph3g4.s 			page 250
 
 
  338:Core/Src/main.c ****   LL_ADC_REG_SetSequencerRanks(ADC1, LL_ADC_REG_RANK_1, LL_ADC_CHANNEL_1);
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  353:Core/Src/main.c ****   * @brief TIM1 Initialization Function
  354:Core/Src/main.c ****   * @param None
  355:Core/Src/main.c ****   * @retval None
-ARM GAS  /tmp/ccGaeuuA.s 			page 251
+ARM GAS  /tmp/cc1ph3g4.s 			page 251
 
 
  356:Core/Src/main.c ****   */
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3348 003a 1A60     		str	r2, [r3]
  3349 003c 5A60     		str	r2, [r3, #4]
  3350 003e 9A60     		str	r2, [r3, #8]
-ARM GAS  /tmp/ccGaeuuA.s 			page 252
+ARM GAS  /tmp/cc1ph3g4.s 			page 252
 
 
  3351 0040 DA60     		str	r2, [r3, #12]
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3388 0086 6023     		movs	r3, #96
  3389 0088 FB62     		str	r3, [r7, #44]
  386:Core/Src/main.c ****   TIM_OC_InitStruct.OCState = LL_TIM_OCSTATE_DISABLE;
-ARM GAS  /tmp/ccGaeuuA.s 			page 253
+ARM GAS  /tmp/cc1ph3g4.s 			page 253
 
 
  3390              		.loc 11 386 29
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3432 00d2 0023     		movs	r3, #0
  3433 00d4 BB61     		str	r3, [r7, #24]
  399:Core/Src/main.c ****   TIM_BDTRInitStruct.LockLevel = LL_TIM_LOCKLEVEL_OFF;
-ARM GAS  /tmp/ccGaeuuA.s 			page 254
+ARM GAS  /tmp/cc1ph3g4.s 			page 254
 
 
  3434              		.loc 11 399 32
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3469              		.loc 11 418 3
  3470 0110 3B46     		mov	r3, r7
  3471 0112 1946     		mov	r1, r3
-ARM GAS  /tmp/ccGaeuuA.s 			page 255
+ARM GAS  /tmp/cc1ph3g4.s 			page 255
 
 
  3472 0114 0648     		ldr	r0, .L139+8
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3516              	.LCFI279:
  3517              		.cfi_def_cfa_register 7
  431:Core/Src/main.c **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 256
+ARM GAS  /tmp/cc1ph3g4.s 			page 256
 
 
  432:Core/Src/main.c ****   /* USER CODE BEGIN TIM6_Init 0 */
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3553              		.loc 11 450 37
  3554 0040 0023     		movs	r3, #0
  3555 0042 3B60     		str	r3, [r7]
-ARM GAS  /tmp/ccGaeuuA.s 			page 257
+ARM GAS  /tmp/cc1ph3g4.s 			page 257
 
 
  451:Core/Src/main.c ****   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3598              	MX_TIM7_Init:
  3599              	.LFB690:
  465:Core/Src/main.c **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 258
+ARM GAS  /tmp/cc1ph3g4.s 			page 258
 
 
  466:Core/Src/main.c **** /**
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  488:Core/Src/main.c ****   TIM_InitStruct.Autoreload = 65535;
  3632              		.loc 11 488 29
  3633 0022 4FF6FF73 		movw	r3, #65535
-ARM GAS  /tmp/ccGaeuuA.s 			page 259
+ARM GAS  /tmp/cc1ph3g4.s 			page 259
 
 
  3634 0026 FB60     		str	r3, [r7, #12]
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3673              		.thumb
  3674              		.thumb_func
  3676              	MX_USART1_UART_Init:
-ARM GAS  /tmp/ccGaeuuA.s 			page 260
+ARM GAS  /tmp/cc1ph3g4.s 			page 260
 
 
  3677              	.LFB691:
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  526:Core/Src/main.c ****   huart1.Init.Mode = UART_MODE_TX_RX;
  3710              		.loc 11 526 20
  3711 0024 0B4B     		ldr	r3, .L151
-ARM GAS  /tmp/ccGaeuuA.s 			page 261
+ARM GAS  /tmp/cc1ph3g4.s 			page 261
 
 
  3712 0026 0C22     		movs	r2, #12
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3755              	MX_DMA_Init:
  3756              	.LFB692:
  540:Core/Src/main.c **** 
-ARM GAS  /tmp/ccGaeuuA.s 			page 262
+ARM GAS  /tmp/cc1ph3g4.s 			page 262
 
 
  541:Core/Src/main.c **** /**
@@ -15718,7 +15718,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3794              		.cfi_offset 14, -4
  3795 0002 86B0     		sub	sp, sp, #24
  3796              	.LCFI292:
-ARM GAS  /tmp/ccGaeuuA.s 			page 263
+ARM GAS  /tmp/cc1ph3g4.s 			page 263
 
 
  3797              		.cfi_def_cfa_offset 32
@@ -15778,7 +15778,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  572:Core/Src/main.c ****   GPIO_InitStruct.Pin = GPIO_PIN_2;
  3839              		.loc 11 572 23
  3840 004e 0423     		movs	r3, #4
-ARM GAS  /tmp/ccGaeuuA.s 			page 264
+ARM GAS  /tmp/cc1ph3g4.s 			page 264
 
 
  3841 0050 BB60     		str	r3, [r7, #8]
@@ -15838,7 +15838,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  587:Core/Src/main.c **** {
  3883              		.loc 11 587 1
  3884              		.cfi_startproc
-ARM GAS  /tmp/ccGaeuuA.s 			page 265
+ARM GAS  /tmp/cc1ph3g4.s 			page 265
 
 
  3885              		@ args = 0, pretend = 0, frame = 8
@@ -15898,7 +15898,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3903              		.loc 11 623 1
  3904 000e 00BF     		nop
  3905 0010 0C37     		adds	r7, r7, #12
-ARM GAS  /tmp/ccGaeuuA.s 			page 266
+ARM GAS  /tmp/cc1ph3g4.s 			page 266
 
 
  3906              	.LCFI299:
@@ -15958,7 +15958,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3950 0008 074B     		ldr	r3, .L161
  3951 000a 084A     		ldr	r2, .L161+4
  3952 000c 0849     		ldr	r1, .L161+8
-ARM GAS  /tmp/ccGaeuuA.s 			page 267
+ARM GAS  /tmp/cc1ph3g4.s 			page 267
 
 
  3953 000e 0948     		ldr	r0, .L161+12
@@ -16018,7 +16018,7 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  3994              		@ link register save eliminated.
  3995 0000 80B4     		push	{r7}
  3996              	.LCFI307:
-ARM GAS  /tmp/ccGaeuuA.s 			page 268
+ARM GAS  /tmp/cc1ph3g4.s 			page 268
 
 
  3997              		.cfi_def_cfa_offset 4
@@ -16076,193 +16076,193 @@ ARM GAS  /tmp/ccGaeuuA.s 			page 1
  4052              		.file 21 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h"
  4053              		.file 22 "Core/Inc/PID_Algorithm.h"
  4054              		.file 23 "Core/Inc/main.h"
-ARM GAS  /tmp/ccGaeuuA.s 			page 269
+ARM GAS  /tmp/cc1ph3g4.s 			page 269
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-     /tmp/ccGaeuuA.s:18     .text.LL_ADC_REG_SetSequencerRanks:0000000000000000 $t
-     /tmp/ccGaeuuA.s:23     .text.LL_ADC_REG_SetSequencerRanks:0000000000000000 LL_ADC_REG_SetSequencerRanks
-     /tmp/ccGaeuuA.s:111    .text.LL_ADC_SetChannelSamplingTime:0000000000000000 $t
-     /tmp/ccGaeuuA.s:116    .text.LL_ADC_SetChannelSamplingTime:0000000000000000 LL_ADC_SetChannelSamplingTime
-     /tmp/ccGaeuuA.s:243    .text.LL_ADC_Enable:0000000000000000 $t
-     /tmp/ccGaeuuA.s:248    .text.LL_ADC_Enable:0000000000000000 LL_ADC_Enable
-     /tmp/ccGaeuuA.s:290    .text.LL_ADC_Disable:0000000000000000 $t
-     /tmp/ccGaeuuA.s:295    .text.LL_ADC_Disable:0000000000000000 LL_ADC_Disable
-     /tmp/ccGaeuuA.s:337    .text.LL_ADC_StartCalibration:0000000000000000 $t
-     /tmp/ccGaeuuA.s:342    .text.LL_ADC_StartCalibration:0000000000000000 LL_ADC_StartCalibration
-     /tmp/ccGaeuuA.s:384    .text.LL_ADC_IsCalibrationOnGoing:0000000000000000 $t
-     /tmp/ccGaeuuA.s:389    .text.LL_ADC_IsCalibrationOnGoing:0000000000000000 LL_ADC_IsCalibrationOnGoing
-     /tmp/ccGaeuuA.s:435    .text.LL_ADC_REG_StartConversionSWStart:0000000000000000 $t
-     /tmp/ccGaeuuA.s:440    .text.LL_ADC_REG_StartConversionSWStart:0000000000000000 LL_ADC_REG_StartConversionSWStart
-     /tmp/ccGaeuuA.s:482    .text.LL_ADC_REG_ReadConversionData12:0000000000000000 $t
-     /tmp/ccGaeuuA.s:487    .text.LL_ADC_REG_ReadConversionData12:0000000000000000 LL_ADC_REG_ReadConversionData12
-     /tmp/ccGaeuuA.s:528    .text.LL_ADC_IsActiveFlag_EOS:0000000000000000 $t
-     /tmp/ccGaeuuA.s:533    .text.LL_ADC_IsActiveFlag_EOS:0000000000000000 LL_ADC_IsActiveFlag_EOS
-     /tmp/ccGaeuuA.s:579    .text.LL_ADC_ClearFlag_EOS:0000000000000000 $t
-     /tmp/ccGaeuuA.s:584    .text.LL_ADC_ClearFlag_EOS:0000000000000000 LL_ADC_ClearFlag_EOS
-     /tmp/ccGaeuuA.s:624    .rodata.CHANNEL_OFFSET_TAB:0000000000000000 $d
-     /tmp/ccGaeuuA.s:627    .rodata.CHANNEL_OFFSET_TAB:0000000000000000 CHANNEL_OFFSET_TAB
-     /tmp/ccGaeuuA.s:630    .text.LL_DMA_SetDataTransferDirection:0000000000000000 $t
-     /tmp/ccGaeuuA.s:635    .text.LL_DMA_SetDataTransferDirection:0000000000000000 LL_DMA_SetDataTransferDirection
-     /tmp/ccGaeuuA.s:695    .text.LL_DMA_SetDataTransferDirection:0000000000000044 $d
-     /tmp/ccGaeuuA.s:700    .text.LL_DMA_SetMode:0000000000000000 $t
-     /tmp/ccGaeuuA.s:705    .text.LL_DMA_SetMode:0000000000000000 LL_DMA_SetMode
-     /tmp/ccGaeuuA.s:763    .text.LL_DMA_SetMode:0000000000000040 $d
-     /tmp/ccGaeuuA.s:768    .text.LL_DMA_SetPeriphIncMode:0000000000000000 $t
-     /tmp/ccGaeuuA.s:773    .text.LL_DMA_SetPeriphIncMode:0000000000000000 LL_DMA_SetPeriphIncMode
-     /tmp/ccGaeuuA.s:831    .text.LL_DMA_SetPeriphIncMode:0000000000000040 $d
-     /tmp/ccGaeuuA.s:836    .text.LL_DMA_SetMemoryIncMode:0000000000000000 $t
-     /tmp/ccGaeuuA.s:841    .text.LL_DMA_SetMemoryIncMode:0000000000000000 LL_DMA_SetMemoryIncMode
-     /tmp/ccGaeuuA.s:899    .text.LL_DMA_SetMemoryIncMode:0000000000000040 $d
-     /tmp/ccGaeuuA.s:904    .text.LL_DMA_SetPeriphSize:0000000000000000 $t
-     /tmp/ccGaeuuA.s:909    .text.LL_DMA_SetPeriphSize:0000000000000000 LL_DMA_SetPeriphSize
-     /tmp/ccGaeuuA.s:967    .text.LL_DMA_SetPeriphSize:0000000000000040 $d
-     /tmp/ccGaeuuA.s:972    .text.LL_DMA_SetMemorySize:0000000000000000 $t
-     /tmp/ccGaeuuA.s:977    .text.LL_DMA_SetMemorySize:0000000000000000 LL_DMA_SetMemorySize
-     /tmp/ccGaeuuA.s:1035   .text.LL_DMA_SetMemorySize:0000000000000040 $d
-     /tmp/ccGaeuuA.s:1040   .text.LL_DMA_SetChannelPriorityLevel:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1045   .text.LL_DMA_SetChannelPriorityLevel:0000000000000000 LL_DMA_SetChannelPriorityLevel
-     /tmp/ccGaeuuA.s:1103   .text.LL_DMA_SetChannelPriorityLevel:0000000000000040 $d
-     /tmp/ccGaeuuA.s:1108   .rodata.OFFSET_TAB_CCMRx:0000000000000000 $d
-     /tmp/ccGaeuuA.s:1111   .rodata.OFFSET_TAB_CCMRx:0000000000000000 OFFSET_TAB_CCMRx
-     /tmp/ccGaeuuA.s:1114   .rodata.SHIFT_TAB_OCxx:0000000000000000 $d
-     /tmp/ccGaeuuA.s:1117   .rodata.SHIFT_TAB_OCxx:0000000000000000 SHIFT_TAB_OCxx
-     /tmp/ccGaeuuA.s:1120   .rodata.SHIFT_TAB_ICxx:0000000000000000 $d
-     /tmp/ccGaeuuA.s:1123   .rodata.SHIFT_TAB_ICxx:0000000000000000 SHIFT_TAB_ICxx
-     /tmp/ccGaeuuA.s:1126   .rodata.SHIFT_TAB_CCxP:0000000000000000 $d
-     /tmp/ccGaeuuA.s:1129   .rodata.SHIFT_TAB_CCxP:0000000000000000 SHIFT_TAB_CCxP
-     /tmp/ccGaeuuA.s:1132   .rodata.SHIFT_TAB_OISx:0000000000000000 $d
-     /tmp/ccGaeuuA.s:1135   .rodata.SHIFT_TAB_OISx:0000000000000000 SHIFT_TAB_OISx
-     /tmp/ccGaeuuA.s:1138   .text.LL_TIM_EnableCounter:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1143   .text.LL_TIM_EnableCounter:0000000000000000 LL_TIM_EnableCounter
-ARM GAS  /tmp/ccGaeuuA.s 			page 270
+     /tmp/cc1ph3g4.s:18     .text.LL_ADC_REG_SetSequencerRanks:0000000000000000 $t
+     /tmp/cc1ph3g4.s:23     .text.LL_ADC_REG_SetSequencerRanks:0000000000000000 LL_ADC_REG_SetSequencerRanks
+     /tmp/cc1ph3g4.s:111    .text.LL_ADC_SetChannelSamplingTime:0000000000000000 $t
+     /tmp/cc1ph3g4.s:116    .text.LL_ADC_SetChannelSamplingTime:0000000000000000 LL_ADC_SetChannelSamplingTime
+     /tmp/cc1ph3g4.s:243    .text.LL_ADC_Enable:0000000000000000 $t
+     /tmp/cc1ph3g4.s:248    .text.LL_ADC_Enable:0000000000000000 LL_ADC_Enable
+     /tmp/cc1ph3g4.s:290    .text.LL_ADC_Disable:0000000000000000 $t
+     /tmp/cc1ph3g4.s:295    .text.LL_ADC_Disable:0000000000000000 LL_ADC_Disable
+     /tmp/cc1ph3g4.s:337    .text.LL_ADC_StartCalibration:0000000000000000 $t
+     /tmp/cc1ph3g4.s:342    .text.LL_ADC_StartCalibration:0000000000000000 LL_ADC_StartCalibration
+     /tmp/cc1ph3g4.s:384    .text.LL_ADC_IsCalibrationOnGoing:0000000000000000 $t
+     /tmp/cc1ph3g4.s:389    .text.LL_ADC_IsCalibrationOnGoing:0000000000000000 LL_ADC_IsCalibrationOnGoing
+     /tmp/cc1ph3g4.s:435    .text.LL_ADC_REG_StartConversionSWStart:0000000000000000 $t
+     /tmp/cc1ph3g4.s:440    .text.LL_ADC_REG_StartConversionSWStart:0000000000000000 LL_ADC_REG_StartConversionSWStart
+     /tmp/cc1ph3g4.s:482    .text.LL_ADC_REG_ReadConversionData12:0000000000000000 $t
+     /tmp/cc1ph3g4.s:487    .text.LL_ADC_REG_ReadConversionData12:0000000000000000 LL_ADC_REG_ReadConversionData12
+     /tmp/cc1ph3g4.s:528    .text.LL_ADC_IsActiveFlag_EOS:0000000000000000 $t
+     /tmp/cc1ph3g4.s:533    .text.LL_ADC_IsActiveFlag_EOS:0000000000000000 LL_ADC_IsActiveFlag_EOS
+     /tmp/cc1ph3g4.s:579    .text.LL_ADC_ClearFlag_EOS:0000000000000000 $t
+     /tmp/cc1ph3g4.s:584    .text.LL_ADC_ClearFlag_EOS:0000000000000000 LL_ADC_ClearFlag_EOS
+     /tmp/cc1ph3g4.s:624    .rodata.CHANNEL_OFFSET_TAB:0000000000000000 $d
+     /tmp/cc1ph3g4.s:627    .rodata.CHANNEL_OFFSET_TAB:0000000000000000 CHANNEL_OFFSET_TAB
+     /tmp/cc1ph3g4.s:630    .text.LL_DMA_SetDataTransferDirection:0000000000000000 $t
+     /tmp/cc1ph3g4.s:635    .text.LL_DMA_SetDataTransferDirection:0000000000000000 LL_DMA_SetDataTransferDirection
+     /tmp/cc1ph3g4.s:695    .text.LL_DMA_SetDataTransferDirection:0000000000000044 $d
+     /tmp/cc1ph3g4.s:700    .text.LL_DMA_SetMode:0000000000000000 $t
+     /tmp/cc1ph3g4.s:705    .text.LL_DMA_SetMode:0000000000000000 LL_DMA_SetMode
+     /tmp/cc1ph3g4.s:763    .text.LL_DMA_SetMode:0000000000000040 $d
+     /tmp/cc1ph3g4.s:768    .text.LL_DMA_SetPeriphIncMode:0000000000000000 $t
+     /tmp/cc1ph3g4.s:773    .text.LL_DMA_SetPeriphIncMode:0000000000000000 LL_DMA_SetPeriphIncMode
+     /tmp/cc1ph3g4.s:831    .text.LL_DMA_SetPeriphIncMode:0000000000000040 $d
+     /tmp/cc1ph3g4.s:836    .text.LL_DMA_SetMemoryIncMode:0000000000000000 $t
+     /tmp/cc1ph3g4.s:841    .text.LL_DMA_SetMemoryIncMode:0000000000000000 LL_DMA_SetMemoryIncMode
+     /tmp/cc1ph3g4.s:899    .text.LL_DMA_SetMemoryIncMode:0000000000000040 $d
+     /tmp/cc1ph3g4.s:904    .text.LL_DMA_SetPeriphSize:0000000000000000 $t
+     /tmp/cc1ph3g4.s:909    .text.LL_DMA_SetPeriphSize:0000000000000000 LL_DMA_SetPeriphSize
+     /tmp/cc1ph3g4.s:967    .text.LL_DMA_SetPeriphSize:0000000000000040 $d
+     /tmp/cc1ph3g4.s:972    .text.LL_DMA_SetMemorySize:0000000000000000 $t
+     /tmp/cc1ph3g4.s:977    .text.LL_DMA_SetMemorySize:0000000000000000 LL_DMA_SetMemorySize
+     /tmp/cc1ph3g4.s:1035   .text.LL_DMA_SetMemorySize:0000000000000040 $d
+     /tmp/cc1ph3g4.s:1040   .text.LL_DMA_SetChannelPriorityLevel:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1045   .text.LL_DMA_SetChannelPriorityLevel:0000000000000000 LL_DMA_SetChannelPriorityLevel
+     /tmp/cc1ph3g4.s:1103   .text.LL_DMA_SetChannelPriorityLevel:0000000000000040 $d
+     /tmp/cc1ph3g4.s:1108   .rodata.OFFSET_TAB_CCMRx:0000000000000000 $d
+     /tmp/cc1ph3g4.s:1111   .rodata.OFFSET_TAB_CCMRx:0000000000000000 OFFSET_TAB_CCMRx
+     /tmp/cc1ph3g4.s:1114   .rodata.SHIFT_TAB_OCxx:0000000000000000 $d
+     /tmp/cc1ph3g4.s:1117   .rodata.SHIFT_TAB_OCxx:0000000000000000 SHIFT_TAB_OCxx
+     /tmp/cc1ph3g4.s:1120   .rodata.SHIFT_TAB_ICxx:0000000000000000 $d
+     /tmp/cc1ph3g4.s:1123   .rodata.SHIFT_TAB_ICxx:0000000000000000 SHIFT_TAB_ICxx
+     /tmp/cc1ph3g4.s:1126   .rodata.SHIFT_TAB_CCxP:0000000000000000 $d
+     /tmp/cc1ph3g4.s:1129   .rodata.SHIFT_TAB_CCxP:0000000000000000 SHIFT_TAB_CCxP
+     /tmp/cc1ph3g4.s:1132   .rodata.SHIFT_TAB_OISx:0000000000000000 $d
+     /tmp/cc1ph3g4.s:1135   .rodata.SHIFT_TAB_OISx:0000000000000000 SHIFT_TAB_OISx
+     /tmp/cc1ph3g4.s:1138   .text.LL_TIM_EnableCounter:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1143   .text.LL_TIM_EnableCounter:0000000000000000 LL_TIM_EnableCounter
+ARM GAS  /tmp/cc1ph3g4.s 			page 270
 
 
-     /tmp/ccGaeuuA.s:1186   .text.LL_TIM_DisableCounter:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1191   .text.LL_TIM_DisableCounter:0000000000000000 LL_TIM_DisableCounter
-     /tmp/ccGaeuuA.s:1233   .text.LL_TIM_EnableARRPreload:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1238   .text.LL_TIM_EnableARRPreload:0000000000000000 LL_TIM_EnableARRPreload
-     /tmp/ccGaeuuA.s:1280   .text.LL_TIM_SetPrescaler:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1285   .text.LL_TIM_SetPrescaler:0000000000000000 LL_TIM_SetPrescaler
-     /tmp/ccGaeuuA.s:1326   .text.LL_TIM_SetAutoReload:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1331   .text.LL_TIM_SetAutoReload:0000000000000000 LL_TIM_SetAutoReload
-     /tmp/ccGaeuuA.s:1372   .text.LL_TIM_CC_EnableChannel:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1377   .text.LL_TIM_CC_EnableChannel:0000000000000000 LL_TIM_CC_EnableChannel
-     /tmp/ccGaeuuA.s:1421   .text.LL_TIM_OC_DisableFast:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1426   .text.LL_TIM_OC_DisableFast:0000000000000000 LL_TIM_OC_DisableFast
-     /tmp/ccGaeuuA.s:1541   .text.LL_TIM_OC_DisableFast:0000000000000080 $d
-     /tmp/ccGaeuuA.s:1547   .text.LL_TIM_OC_EnablePreload:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1552   .text.LL_TIM_OC_EnablePreload:0000000000000000 LL_TIM_OC_EnablePreload
-     /tmp/ccGaeuuA.s:1666   .text.LL_TIM_OC_EnablePreload:0000000000000080 $d
-     /tmp/ccGaeuuA.s:1672   .text.LL_TIM_SetClockSource:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1677   .text.LL_TIM_SetClockSource:0000000000000000 LL_TIM_SetClockSource
-     /tmp/ccGaeuuA.s:1723   .text.LL_TIM_SetTriggerOutput:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1728   .text.LL_TIM_SetTriggerOutput:0000000000000000 LL_TIM_SetTriggerOutput
-     /tmp/ccGaeuuA.s:1773   .text.LL_TIM_DisableMasterSlaveMode:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1778   .text.LL_TIM_DisableMasterSlaveMode:0000000000000000 LL_TIM_DisableMasterSlaveMode
-     /tmp/ccGaeuuA.s:1820   .text.LL_TIM_EnableAutomaticOutput:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1825   .text.LL_TIM_EnableAutomaticOutput:0000000000000000 LL_TIM_EnableAutomaticOutput
-     /tmp/ccGaeuuA.s:1867   .text.LL_TIM_EnableAllOutputs:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1872   .text.LL_TIM_EnableAllOutputs:0000000000000000 LL_TIM_EnableAllOutputs
-     /tmp/ccGaeuuA.s:1914   .text.LL_TIM_ClearFlag_UPDATE:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1919   .text.LL_TIM_ClearFlag_UPDATE:0000000000000000 LL_TIM_ClearFlag_UPDATE
-     /tmp/ccGaeuuA.s:1959   .text.LL_TIM_IsActiveFlag_UPDATE:0000000000000000 $t
-     /tmp/ccGaeuuA.s:1964   .text.LL_TIM_IsActiveFlag_UPDATE:0000000000000000 LL_TIM_IsActiveFlag_UPDATE
-     /tmp/ccGaeuuA.s:2014   .text.LL_AHB1_GRP1_EnableClock:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2019   .text.LL_AHB1_GRP1_EnableClock:0000000000000000 LL_AHB1_GRP1_EnableClock
-     /tmp/ccGaeuuA.s:2071   .text.LL_AHB1_GRP1_EnableClock:000000000000002c $d
-     /tmp/ccGaeuuA.s:2076   .text.LL_APB1_GRP1_EnableClock:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2081   .text.LL_APB1_GRP1_EnableClock:0000000000000000 LL_APB1_GRP1_EnableClock
-     /tmp/ccGaeuuA.s:2132   .text.LL_APB1_GRP1_EnableClock:000000000000002c $d
-     /tmp/ccGaeuuA.s:2137   .text.LL_APB2_GRP1_EnableClock:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2142   .text.LL_APB2_GRP1_EnableClock:0000000000000000 LL_APB2_GRP1_EnableClock
-     /tmp/ccGaeuuA.s:2193   .text.LL_APB2_GRP1_EnableClock:000000000000002c $d
-     /tmp/ccGaeuuA.s:2198   .text.LL_GPIO_AF_RemapPartial_TIM1:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2203   .text.LL_GPIO_AF_RemapPartial_TIM1:0000000000000000 LL_GPIO_AF_RemapPartial_TIM1
-     /tmp/ccGaeuuA.s:2241   .text.LL_GPIO_AF_RemapPartial_TIM1:0000000000000024 $d
-     /tmp/ccGaeuuA.s:2246   .text.us_delay:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2251   .text.us_delay:0000000000000000 us_delay
-     /tmp/ccGaeuuA.s:2328   .text.ID_Judgement:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2333   .text.ID_Judgement:0000000000000000 ID_Judgement
-     /tmp/ccGaeuuA.s:2393   .text.clean_temp:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2398   .text.clean_temp:0000000000000000 clean_temp
-     /tmp/ccGaeuuA.s:2438   .text.instruction_handle:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2443   .text.instruction_handle:0000000000000000 instruction_handle
-     /tmp/ccGaeuuA.s:2507   .text.Advance_TIMX_PWM_INIGTION:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2512   .text.Advance_TIMX_PWM_INIGTION:0000000000000000 Advance_TIMX_PWM_INIGTION
-     /tmp/ccGaeuuA.s:2558   .text.Set_And_Convert_Duty_ALL:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2563   .text.Set_And_Convert_Duty_ALL:0000000000000000 Set_And_Convert_Duty_ALL
-     /tmp/ccGaeuuA.s:2598   .text.Set_And_Convert_Duty_ALL:0000000000000018 $d
-     /tmp/ccGaeuuA.s:2603   .text.ADC_By_Consultant:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2608   .text.ADC_By_Consultant:0000000000000000 ADC_By_Consultant
-ARM GAS  /tmp/ccGaeuuA.s 			page 271
+     /tmp/cc1ph3g4.s:1186   .text.LL_TIM_DisableCounter:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1191   .text.LL_TIM_DisableCounter:0000000000000000 LL_TIM_DisableCounter
+     /tmp/cc1ph3g4.s:1233   .text.LL_TIM_EnableARRPreload:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1238   .text.LL_TIM_EnableARRPreload:0000000000000000 LL_TIM_EnableARRPreload
+     /tmp/cc1ph3g4.s:1280   .text.LL_TIM_SetPrescaler:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1285   .text.LL_TIM_SetPrescaler:0000000000000000 LL_TIM_SetPrescaler
+     /tmp/cc1ph3g4.s:1326   .text.LL_TIM_SetAutoReload:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1331   .text.LL_TIM_SetAutoReload:0000000000000000 LL_TIM_SetAutoReload
+     /tmp/cc1ph3g4.s:1372   .text.LL_TIM_CC_EnableChannel:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1377   .text.LL_TIM_CC_EnableChannel:0000000000000000 LL_TIM_CC_EnableChannel
+     /tmp/cc1ph3g4.s:1421   .text.LL_TIM_OC_DisableFast:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1426   .text.LL_TIM_OC_DisableFast:0000000000000000 LL_TIM_OC_DisableFast
+     /tmp/cc1ph3g4.s:1541   .text.LL_TIM_OC_DisableFast:0000000000000080 $d
+     /tmp/cc1ph3g4.s:1547   .text.LL_TIM_OC_EnablePreload:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1552   .text.LL_TIM_OC_EnablePreload:0000000000000000 LL_TIM_OC_EnablePreload
+     /tmp/cc1ph3g4.s:1666   .text.LL_TIM_OC_EnablePreload:0000000000000080 $d
+     /tmp/cc1ph3g4.s:1672   .text.LL_TIM_SetClockSource:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1677   .text.LL_TIM_SetClockSource:0000000000000000 LL_TIM_SetClockSource
+     /tmp/cc1ph3g4.s:1723   .text.LL_TIM_SetTriggerOutput:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1728   .text.LL_TIM_SetTriggerOutput:0000000000000000 LL_TIM_SetTriggerOutput
+     /tmp/cc1ph3g4.s:1773   .text.LL_TIM_DisableMasterSlaveMode:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1778   .text.LL_TIM_DisableMasterSlaveMode:0000000000000000 LL_TIM_DisableMasterSlaveMode
+     /tmp/cc1ph3g4.s:1820   .text.LL_TIM_EnableAutomaticOutput:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1825   .text.LL_TIM_EnableAutomaticOutput:0000000000000000 LL_TIM_EnableAutomaticOutput
+     /tmp/cc1ph3g4.s:1867   .text.LL_TIM_EnableAllOutputs:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1872   .text.LL_TIM_EnableAllOutputs:0000000000000000 LL_TIM_EnableAllOutputs
+     /tmp/cc1ph3g4.s:1914   .text.LL_TIM_ClearFlag_UPDATE:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1919   .text.LL_TIM_ClearFlag_UPDATE:0000000000000000 LL_TIM_ClearFlag_UPDATE
+     /tmp/cc1ph3g4.s:1959   .text.LL_TIM_IsActiveFlag_UPDATE:0000000000000000 $t
+     /tmp/cc1ph3g4.s:1964   .text.LL_TIM_IsActiveFlag_UPDATE:0000000000000000 LL_TIM_IsActiveFlag_UPDATE
+     /tmp/cc1ph3g4.s:2014   .text.LL_AHB1_GRP1_EnableClock:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2019   .text.LL_AHB1_GRP1_EnableClock:0000000000000000 LL_AHB1_GRP1_EnableClock
+     /tmp/cc1ph3g4.s:2071   .text.LL_AHB1_GRP1_EnableClock:000000000000002c $d
+     /tmp/cc1ph3g4.s:2076   .text.LL_APB1_GRP1_EnableClock:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2081   .text.LL_APB1_GRP1_EnableClock:0000000000000000 LL_APB1_GRP1_EnableClock
+     /tmp/cc1ph3g4.s:2132   .text.LL_APB1_GRP1_EnableClock:000000000000002c $d
+     /tmp/cc1ph3g4.s:2137   .text.LL_APB2_GRP1_EnableClock:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2142   .text.LL_APB2_GRP1_EnableClock:0000000000000000 LL_APB2_GRP1_EnableClock
+     /tmp/cc1ph3g4.s:2193   .text.LL_APB2_GRP1_EnableClock:000000000000002c $d
+     /tmp/cc1ph3g4.s:2198   .text.LL_GPIO_AF_RemapPartial_TIM1:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2203   .text.LL_GPIO_AF_RemapPartial_TIM1:0000000000000000 LL_GPIO_AF_RemapPartial_TIM1
+     /tmp/cc1ph3g4.s:2241   .text.LL_GPIO_AF_RemapPartial_TIM1:0000000000000024 $d
+     /tmp/cc1ph3g4.s:2246   .text.us_delay:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2251   .text.us_delay:0000000000000000 us_delay
+     /tmp/cc1ph3g4.s:2328   .text.ID_Judgement:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2333   .text.ID_Judgement:0000000000000000 ID_Judgement
+     /tmp/cc1ph3g4.s:2393   .text.clean_temp:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2398   .text.clean_temp:0000000000000000 clean_temp
+     /tmp/cc1ph3g4.s:2438   .text.instruction_handle:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2443   .text.instruction_handle:0000000000000000 instruction_handle
+     /tmp/cc1ph3g4.s:2507   .text.Advance_TIMX_PWM_INIGTION:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2512   .text.Advance_TIMX_PWM_INIGTION:0000000000000000 Advance_TIMX_PWM_INIGTION
+     /tmp/cc1ph3g4.s:2558   .text.Set_And_Convert_Duty_ALL:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2563   .text.Set_And_Convert_Duty_ALL:0000000000000000 Set_And_Convert_Duty_ALL
+     /tmp/cc1ph3g4.s:2598   .text.Set_And_Convert_Duty_ALL:0000000000000018 $d
+     /tmp/cc1ph3g4.s:2603   .text.ADC_By_Consultant:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2608   .text.ADC_By_Consultant:0000000000000000 ADC_By_Consultant
+ARM GAS  /tmp/cc1ph3g4.s 			page 271
 
 
-     /tmp/ccGaeuuA.s:2661   .text.ADC1_Operation:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2666   .text.ADC1_Operation:0000000000000000 ADC1_Operation
-     /tmp/ccGaeuuA.s:2690   .text.ADC1_Operation:0000000000000010 $d
-     /tmp/ccGaeuuA.s:2695   .text.Get_ADC_INIT_VALUE:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2700   .text.Get_ADC_INIT_VALUE:0000000000000000 Get_ADC_INIT_VALUE
-     /tmp/ccGaeuuA.s:2742   .text.Get_ADC_INIT_VALUE:0000000000000024 $d
-     /tmp/ccGaeuuA.s:2752   .data.TARGET:0000000000000000 TARGET
-     /tmp/ccGaeuuA.s:2749   .data.TARGET:0000000000000000 $d
-     /tmp/ccGaeuuA.s:2760   .bss.Exceed_Time_Flag:0000000000000000 Exceed_Time_Flag
-     /tmp/ccGaeuuA.s:2761   .bss.Exceed_Time_Flag:0000000000000000 $d
-     /tmp/ccGaeuuA.s:2766   .bss.uart_temp:0000000000000000 uart_temp
-     /tmp/ccGaeuuA.s:2767   .bss.uart_temp:0000000000000000 $d
-     /tmp/ccGaeuuA.s:2773   .bss.uart_receive_data:0000000000000000 uart_receive_data
-     /tmp/ccGaeuuA.s:2770   .bss.uart_receive_data:0000000000000000 $d
-     /tmp/ccGaeuuA.s:2780   .bss.htim6:0000000000000000 htim6
-     /tmp/ccGaeuuA.s:2777   .bss.htim6:0000000000000000 $d
-     /tmp/ccGaeuuA.s:2787   .bss.huart1:0000000000000000 huart1
-     /tmp/ccGaeuuA.s:2784   .bss.huart1:0000000000000000 $d
-     /tmp/ccGaeuuA.s:2790   .text.main:0000000000000000 $t
-     /tmp/ccGaeuuA.s:2796   .text.main:0000000000000000 main
-     /tmp/ccGaeuuA.s:2941   .text.SystemClock_Config:0000000000000000 SystemClock_Config
-     /tmp/ccGaeuuA.s:3784   .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-     /tmp/ccGaeuuA.s:3755   .text.MX_DMA_Init:0000000000000000 MX_DMA_Init
-     /tmp/ccGaeuuA.s:3501   .text.MX_TIM6_Init:0000000000000000 MX_TIM6_Init
-     /tmp/ccGaeuuA.s:3676   .text.MX_USART1_UART_Init:0000000000000000 MX_USART1_UART_Init
-     /tmp/ccGaeuuA.s:3305   .text.MX_TIM1_Init:0000000000000000 MX_TIM1_Init
-     /tmp/ccGaeuuA.s:3598   .text.MX_TIM7_Init:0000000000000000 MX_TIM7_Init
-     /tmp/ccGaeuuA.s:3118   .text.MX_ADC1_Init:0000000000000000 MX_ADC1_Init
-     /tmp/ccGaeuuA.s:3076   .text.MX_NVIC_Init:0000000000000000 MX_NVIC_Init
-     /tmp/ccGaeuuA.s:2919   .text.main:00000000000000bc $d
-     /tmp/ccGaeuuA.s:2935   .text.SystemClock_Config:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3988   .text.Error_Handler:0000000000000000 Error_Handler
-     /tmp/ccGaeuuA.s:3071   .text.MX_NVIC_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3113   .text.MX_ADC1_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3292   .text.MX_ADC1_Init:0000000000000128 $d
-     /tmp/ccGaeuuA.s:3300   .text.MX_TIM1_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3489   .text.MX_TIM1_Init:0000000000000128 $d
-     /tmp/ccGaeuuA.s:3496   .text.MX_TIM6_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3587   .text.MX_TIM6_Init:000000000000006c $d
-     /tmp/ccGaeuuA.s:3593   .text.MX_TIM7_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3666   .text.MX_TIM7_Init:0000000000000054 $d
-     /tmp/ccGaeuuA.s:3671   .text.MX_USART1_UART_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3743   .text.MX_USART1_UART_Init:0000000000000054 $d
-     /tmp/ccGaeuuA.s:3750   .text.MX_DMA_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3779   .text.MX_GPIO_Init:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3869   .text.MX_GPIO_Init:0000000000000074 $d
-     /tmp/ccGaeuuA.s:3875   .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3881   .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 HAL_TIM_PeriodElapsedCallback
-     /tmp/ccGaeuuA.s:3920   .text.HAL_TIM_PeriodElapsedCallback:0000000000000018 $d
-     /tmp/ccGaeuuA.s:3925   .text.HAL_UART_RxCpltCallback:0000000000000000 $t
-     /tmp/ccGaeuuA.s:3931   .text.HAL_UART_RxCpltCallback:0000000000000000 HAL_UART_RxCpltCallback
-     /tmp/ccGaeuuA.s:3973   .text.HAL_UART_RxCpltCallback:0000000000000028 $d
-     /tmp/ccGaeuuA.s:3982   .text.Error_Handler:0000000000000000 $t
-     /tmp/ccGaeuuA.s:4024   .bss.cnt1.3:0000000000000000 cnt1.3
-     /tmp/ccGaeuuA.s:4025   .bss.cnt1.3:0000000000000000 $d
-     /tmp/ccGaeuuA.s:4029   .bss.a.2:0000000000000000 a.2
-     /tmp/ccGaeuuA.s:4030   .bss.a.2:0000000000000000 $d
-ARM GAS  /tmp/ccGaeuuA.s 			page 272
+     /tmp/cc1ph3g4.s:2661   .text.ADC1_Operation:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2666   .text.ADC1_Operation:0000000000000000 ADC1_Operation
+     /tmp/cc1ph3g4.s:2690   .text.ADC1_Operation:0000000000000010 $d
+     /tmp/cc1ph3g4.s:2695   .text.Get_ADC_INIT_VALUE:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2700   .text.Get_ADC_INIT_VALUE:0000000000000000 Get_ADC_INIT_VALUE
+     /tmp/cc1ph3g4.s:2742   .text.Get_ADC_INIT_VALUE:0000000000000024 $d
+     /tmp/cc1ph3g4.s:2752   .data.TARGET:0000000000000000 TARGET
+     /tmp/cc1ph3g4.s:2749   .data.TARGET:0000000000000000 $d
+     /tmp/cc1ph3g4.s:2760   .bss.Exceed_Time_Flag:0000000000000000 Exceed_Time_Flag
+     /tmp/cc1ph3g4.s:2761   .bss.Exceed_Time_Flag:0000000000000000 $d
+     /tmp/cc1ph3g4.s:2766   .bss.uart_temp:0000000000000000 uart_temp
+     /tmp/cc1ph3g4.s:2767   .bss.uart_temp:0000000000000000 $d
+     /tmp/cc1ph3g4.s:2773   .bss.uart_receive_data:0000000000000000 uart_receive_data
+     /tmp/cc1ph3g4.s:2770   .bss.uart_receive_data:0000000000000000 $d
+     /tmp/cc1ph3g4.s:2780   .bss.htim6:0000000000000000 htim6
+     /tmp/cc1ph3g4.s:2777   .bss.htim6:0000000000000000 $d
+     /tmp/cc1ph3g4.s:2787   .bss.huart1:0000000000000000 huart1
+     /tmp/cc1ph3g4.s:2784   .bss.huart1:0000000000000000 $d
+     /tmp/cc1ph3g4.s:2790   .text.main:0000000000000000 $t
+     /tmp/cc1ph3g4.s:2796   .text.main:0000000000000000 main
+     /tmp/cc1ph3g4.s:2941   .text.SystemClock_Config:0000000000000000 SystemClock_Config
+     /tmp/cc1ph3g4.s:3784   .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
+     /tmp/cc1ph3g4.s:3755   .text.MX_DMA_Init:0000000000000000 MX_DMA_Init
+     /tmp/cc1ph3g4.s:3501   .text.MX_TIM6_Init:0000000000000000 MX_TIM6_Init
+     /tmp/cc1ph3g4.s:3676   .text.MX_USART1_UART_Init:0000000000000000 MX_USART1_UART_Init
+     /tmp/cc1ph3g4.s:3305   .text.MX_TIM1_Init:0000000000000000 MX_TIM1_Init
+     /tmp/cc1ph3g4.s:3598   .text.MX_TIM7_Init:0000000000000000 MX_TIM7_Init
+     /tmp/cc1ph3g4.s:3118   .text.MX_ADC1_Init:0000000000000000 MX_ADC1_Init
+     /tmp/cc1ph3g4.s:3076   .text.MX_NVIC_Init:0000000000000000 MX_NVIC_Init
+     /tmp/cc1ph3g4.s:2919   .text.main:00000000000000bc $d
+     /tmp/cc1ph3g4.s:2935   .text.SystemClock_Config:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3988   .text.Error_Handler:0000000000000000 Error_Handler
+     /tmp/cc1ph3g4.s:3071   .text.MX_NVIC_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3113   .text.MX_ADC1_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3292   .text.MX_ADC1_Init:0000000000000128 $d
+     /tmp/cc1ph3g4.s:3300   .text.MX_TIM1_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3489   .text.MX_TIM1_Init:0000000000000128 $d
+     /tmp/cc1ph3g4.s:3496   .text.MX_TIM6_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3587   .text.MX_TIM6_Init:000000000000006c $d
+     /tmp/cc1ph3g4.s:3593   .text.MX_TIM7_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3666   .text.MX_TIM7_Init:0000000000000054 $d
+     /tmp/cc1ph3g4.s:3671   .text.MX_USART1_UART_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3743   .text.MX_USART1_UART_Init:0000000000000054 $d
+     /tmp/cc1ph3g4.s:3750   .text.MX_DMA_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3779   .text.MX_GPIO_Init:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3869   .text.MX_GPIO_Init:0000000000000074 $d
+     /tmp/cc1ph3g4.s:3875   .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3881   .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 HAL_TIM_PeriodElapsedCallback
+     /tmp/cc1ph3g4.s:3920   .text.HAL_TIM_PeriodElapsedCallback:0000000000000018 $d
+     /tmp/cc1ph3g4.s:3925   .text.HAL_UART_RxCpltCallback:0000000000000000 $t
+     /tmp/cc1ph3g4.s:3931   .text.HAL_UART_RxCpltCallback:0000000000000000 HAL_UART_RxCpltCallback
+     /tmp/cc1ph3g4.s:3973   .text.HAL_UART_RxCpltCallback:0000000000000028 $d
+     /tmp/cc1ph3g4.s:3982   .text.Error_Handler:0000000000000000 $t
+     /tmp/cc1ph3g4.s:4024   .bss.cnt1.3:0000000000000000 cnt1.3
+     /tmp/cc1ph3g4.s:4025   .bss.cnt1.3:0000000000000000 $d
+     /tmp/cc1ph3g4.s:4029   .bss.a.2:0000000000000000 a.2
+     /tmp/cc1ph3g4.s:4030   .bss.a.2:0000000000000000 $d
+ARM GAS  /tmp/cc1ph3g4.s 			page 272
 
 
-     /tmp/ccGaeuuA.s:4034   .bss.cnt.1:0000000000000000 cnt.1
-     /tmp/ccGaeuuA.s:4035   .bss.cnt.1:0000000000000000 $d
-     /tmp/ccGaeuuA.s:4039   .bss.temp.0:0000000000000000 temp.0
-     /tmp/ccGaeuuA.s:4040   .bss.temp.0:0000000000000000 $d
+     /tmp/cc1ph3g4.s:4034   .bss.cnt.1:0000000000000000 cnt.1
+     /tmp/cc1ph3g4.s:4035   .bss.cnt.1:0000000000000000 $d
+     /tmp/cc1ph3g4.s:4039   .bss.temp.0:0000000000000000 temp.0
+     /tmp/cc1ph3g4.s:4040   .bss.temp.0:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 memset
